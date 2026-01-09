@@ -1,0 +1,7 @@
+{
+  "name": "AngebotsAgent",
+  "description": "Enterprise-grade software for German construction subcontractors to extract quantities, identify change order potentials, and generate professional offers.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
