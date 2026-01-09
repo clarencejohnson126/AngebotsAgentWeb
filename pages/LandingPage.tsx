@@ -69,11 +69,11 @@ export const LandingPage: React.FC<{ lang: Language }> = ({ lang }) => {
           </div>
 
           {/* Mascot - Right Side */}
-          <div className="flex-shrink-0 mt-8 lg:mt-0 lg:ml-12">
+          <div className="flex-shrink-0 mt-8 lg:mt-0 lg:ml-8">
             <img
               src={mascotHero}
               alt="AngebotsAgent Mascot"
-              className="w-40 sm:w-56 md:w-72 lg:w-96 h-auto object-contain drop-shadow-2xl"
+              className="w-40 sm:w-48 md:w-56 lg:w-64 xl:w-80 h-auto object-contain drop-shadow-2xl"
             />
           </div>
         </div>
@@ -190,7 +190,7 @@ export const LandingPage: React.FC<{ lang: Language }> = ({ lang }) => {
              <img
                src={mascotPage3}
                alt="AngebotsAgent Mascot - Quantity Extraction"
-               className="hidden xl:block absolute -right-40 2xl:-right-56 top-1/2 -translate-y-1/2 w-48 2xl:w-60 h-auto object-contain drop-shadow-xl z-10"
+               className="hidden xl:block absolute -right-16 2xl:-right-32 top-1/2 -translate-y-1/2 w-40 2xl:w-52 h-auto object-contain drop-shadow-xl z-10"
              />
           </div>
         </div>
@@ -296,7 +296,7 @@ export const LandingPage: React.FC<{ lang: Language }> = ({ lang }) => {
              <img
                src={mascotPage7}
                alt="AngebotsAgent Mascot - Pricing"
-               className="hidden xl:block absolute -right-40 2xl:-right-56 top-1/2 -translate-y-1/2 w-48 2xl:w-60 h-auto object-contain drop-shadow-xl z-10"
+               className="hidden xl:block absolute -right-16 2xl:-right-32 top-1/2 -translate-y-1/2 w-40 2xl:w-52 h-auto object-contain drop-shadow-xl z-10"
              />
           </div>
         </div>
