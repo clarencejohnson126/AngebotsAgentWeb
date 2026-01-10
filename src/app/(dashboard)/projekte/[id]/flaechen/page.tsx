@@ -111,10 +111,10 @@ type Step = 'upload' | 'processing' | 'results'
 export default function FlaechenPage() {
   const params = useParams()
   const searchParams = useSearchParams()
-  const projectId = params?.id as string
-  const documentId = searchParams?.get('documentId')
-  const documentName = searchParams?.get('name') || ''
-  const storagePath = searchParams?.get('storagePath') || ''
+  const projectId = params.id as string
+  const documentId = searchParams.get('documentId')
+  const documentName = searchParams.get('name') || ''
+  const storagePath = searchParams.get('storagePath') || ''
 
   const [step, setStep] = useState<Step>('upload')
   const [file, setFile] = useState<File | null>(null)
