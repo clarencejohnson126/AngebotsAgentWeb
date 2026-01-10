@@ -19,7 +19,7 @@ export const LandingPage: React.FC<{ lang: Language }> = ({ lang }) => {
       return [
         <>Angebote <span className="text-blue-600">schnell</span></>,
         <>erstellen. Aufträge</>,
-        <>sicher <span className="text-blue-600">gewinnen</span>.</>
+        <>besser <span className="text-blue-600">gewinnen</span>.</>
       ];
     }
     return [
