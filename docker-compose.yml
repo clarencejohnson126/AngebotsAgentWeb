@@ -1,0 +1,41 @@
+# AngebotsAgent Development Docker Compose
+# Run: docker-compose up -d
+
+version: '3.8'
+
+services:
+  # Python PDF Extraction Service
+  extraction-service:
+    build:
+      context: ./python-service
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - LOG_LEVEL=INFO
+    volumes:
+      # Mount for development hot-reload
+      - ./python-service/app:/app/app:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "import httpx; httpx.get('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+  # Next.js Frontend (optional - can also run with npm run dev)
+  # Uncomment to run in Docker
+  # frontend:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile.frontend
+  #   ports:
+  #     - "3000:3000"
+  #   environment:
+  #     - NEXT_PUBLIC_SUPABASE_URL=${NEXT_PUBLIC_SUPABASE_URL}
+  #     - NEXT_PUBLIC_SUPABASE_ANON_KEY=${NEXT_PUBLIC_SUPABASE_ANON_KEY}
+  #     - PYTHON_SERVICE_URL=http://extraction-service:8000
+  #   depends_on:
+  #     - extraction-service

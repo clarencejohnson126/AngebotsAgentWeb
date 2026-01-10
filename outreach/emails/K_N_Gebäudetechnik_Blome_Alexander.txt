@@ -1,0 +1,19 @@
+Betreff: Kurze Frage
+
+An: a.blome@kn-gebaeudetechnik.de
+
+---
+
+Hi Alexander,
+
+Ich schreib dir kurz, weil ich denke das könnte für euch passen.
+
+Ich baue gerade ein Tool namens AngebotsAgent. Damit kannst du Mengen direkt aus Plänen und Ausschreibungen ziehen, Nachtragspotenziale früh erkennen und das Angebot am Ende als Excel oder PDF exportieren.
+
+Das Besondere: wir bauen das individuell für euren Betrieb - genau auf eure Abläufe und Gewerke zugeschnitten. Und es gibt keine Lizenzgebühren oder monatlichen Kosten.
+
+Ziel ist, dass du schneller Angebote rausschicken kannst und öfter den Zuschlag bekommst.
+
+Schau dir gern mal die Demo an unter https://angebotsagent.de - wenn das grundsätzlich passt, können wir direkt besprechen was ihr braucht.
+
+Gruss Clarence

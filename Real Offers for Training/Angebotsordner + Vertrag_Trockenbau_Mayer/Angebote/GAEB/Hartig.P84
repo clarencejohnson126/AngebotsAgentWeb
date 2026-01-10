@@ -1,0 +1,2864 @@
+#begin[GAEB]
+ #begin[GAEBInfo]
+  [Version]1.2[end]
+  [VersJahr]2002[end]
+  [VersMon]3[end]
+  [Datum]04.11.2024[end]
+  [Uhrzeit]13:11[end]
+  [ProgSystem]Merlin 25.0.1.1/ GAEB Toolbox V3.3 G90 R20200715[end]
+  [ProgName]Merlin 25.0.1.1[end]
+  [Zeichensatz]ANSI[end]
+  [_GAEBXML]1[end]
+ #end[GAEBInfo]
+ #begin[PrjInfo]
+  [Name]2000655[end]
+  [Bez]Offenbach, LEIQ "Nordring/Goethering"[end]
+  [Wae]EUR[end]
+  [WaeBez]Euro[end]
+ #end[PrjInfo]
+ #begin[Vergabe]
+  [DP]84[end]
+  #begin[VergabeInfo]
+   [Wae]EUR[end]
+   [WaeBez]Euro[end]
+   [ErDatum]12.11.2024[end]
+   [ErUhrzeit]00:00[end]
+   [ZusEnde]31.10.2024[end]
+   [AusfBeginn]13.01.2025[end]
+   [AusfEnde]31.03.2025[end]
+  #end[VergabeInfo]
+  #begin[AG]
+   #begin[Adresse]
+    [Name1]Adolf Lupp GmbH + Co KG[end]
+    [Strasse]Alois-Thums-Straße 1-3[end]
+    [PLZ]63667[end]
+    [Ort]Nidda[end]
+    [LandBez]DE[end]
+    [AnsprPartner]Niklas Hirtz[end]
+    [Telefon]+49 6043 807 0[end]
+    [Fax]+49 6043 807 171[end]
+    [Email]Niklas.Hirtz@Lupp.de[end]
+   #end[Adresse]
+  #end[AG]
+  #begin[AN]
+   #begin[Adresse]
+    [Name1]Erich Hartig GmbH +Co. KG[end]
+    [Strasse]Rhönstraße 3[end]
+    [PLZ]63533[end]
+    [Ort]Mainhausen[end]
+    [LandBez]Deutschland[end]
+   #end[Adresse]
+  #end[AN]
+  #begin[LV]
+   #begin[LVInfo]
+    [Name]100[end]
+    [Bez]Trockenbau Mieterausbau BTB[end]
+    [Datum]24.10.2024[end]
+    [KurzLang]1[end]
+    #begin[LVGlied]
+     [Typ]LVStufe[end]
+     [Bez]Bereich[end]
+     [Laenge]2[end]
+     [Format]A[end]
+     [_GAEBXML_Alignment]right[end]
+    #end[LVGlied]
+    #begin[LVGlied]
+     [Typ]LVStufe[end]
+     [Bez]1[end]
+     [Laenge]2[end]
+     [Format]A[end]
+     [_GAEBXML_Alignment]right[end]
+    #end[LVGlied]
+    #begin[LVGlied]
+     [Typ]LVStufe[end]
+     [Bez]Abschnitt[end]
+     [Laenge]2[end]
+     [Format]A[end]
+     [_GAEBXML_Alignment]right[end]
+    #end[LVGlied]
+    #begin[LVGlied]
+     [Typ]Position[end]
+     [Laenge]4[end]
+     [Format]A[end]
+     [_GAEBXML_Alignment]right[end]
+    #end[LVGlied]
+    #begin[LVGlied]
+     [Typ]Index[end]
+     [Laenge]1[end]
+     [Format]A[end]
+     [_GAEBXML_Alignment]right[end]
+    #end[LVGlied]
+    [AnzEPAnteile]4[end]
+    [BezEPAnteil1]Löhne[end]
+    [BezEPAnteil2]Stoffe[end]
+    [BezEPAnteil3]Geräte[end]
+    [BezEPAnteil4]Sonstiges[end]
+    [Summe]310070,20[end]
+    [USt]16,00[end]
+    [SummeBrutto]359681,43[end]
+   #end[LVInfo]
+   #begin[LVBereich]
+    [OZ]01[end]
+    [Bez]Mietbereich Lorenz 2. + 3. OG[end]
+    #begin[LVBereich]
+     [OZ]0101[end]
+     [Bez]Trockenbauarbeiten - Wände[end]
+     #begin[LVBereich]
+      [OZ]010101[end]
+      [Bez]Trockenbauarbeiten - Wände[end]
+      #begin[Position]
+       [OZ]0101010010[end]
+       [ME]m2[end]
+       [EP]60,500[end]
+       [GB]61044,50[end]
+       #begin[Beschreibung]
+        [Langtext]GK-Metallständerwand nach DIN 4103 Teil 1, wie folgt:
+        
+        - Unterkonstruktion:    Metallständerwerk UW50 und CW50 im       Achsabstand von max. 62,5 cm und       Erfordernis.
+        - Beplankung:        beidseitig je 2x 12,5 mm GKB
+        - Dämmschicht:    WLG 040 d= 40 mm
+        - Wanddicke:       d=100 mm
+        - Einbauhöhe:       bis 3,30 m ab OKRF
+        - beidseitig    Q3 gespachtelt
+        - Brandschutz   F0
+        
+        Fabrikat: Knauf W 112 oder glw.
+        
+        Angeb. Fabrikat: ..................................[end]
+        [Kurztext]GK-Metallständerwand W112, F0, Q3, d= 100mm, 2x 12,5mm beidseitig GKB[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010020[end]
+       [ME]m2[end]
+       [EP]61,500[end]
+       [GB]13837,50[end]
+       #begin[Beschreibung]
+        [Langtext]GK-Metallständerwand nach DIN 4103 Teil 1, wie folgt:
+        
+        - Unterkonstruktion:    Metallständerwerk UW50 und CW50 im       Achsabstand von max. 62,5 cm und       Erfordernis.
+        - Beplankung:        beidseitig je 2x 12,5 mm GKB
+        - Dämmschicht:    WLG 040 d= 40 mm
+        - Wanddicke:       d=125 mm
+        - Einbauhöhe:       bis 3,30 m ab OKRF
+        - beidseitig    Q3 gespachtelt
+        - Brandschutz   F0
+        
+        Fabrikat: Knauf W 112 oder glw.
+        
+        Angeb. Fabrikat: ..................................[end]
+        [Kurztext]GK-Metallständerwand W112, F0, Q3, d= 125mm, 2x 12,5mm beidseitig GKB[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010030[end]
+       [ME]m2[end]
+       [EP]78,000[end]
+       [GB]2028,00[end]
+       #begin[Beschreibung]
+        [Langtext]GK-Installationswand nach DIN 4103 Teil 1, wie folgt:
+        
+        - Unterkonstruktion:    Metallständerwerk mind. 2x CW 50 im       Achsabstand von max. 62,5cm und       Erfordernis
+        - Beplankung:       beidseitig je 2x 12,5 mm GKB
+        - Dämmschicht:       WLG 040, d= 2 x 40mm
+        - Wanddicke:       bis d=400mm
+        - Einbauhöhe:        bis 3,30 m ab OKRF
+        - beidseitig    Q3 gespachtelt
+        - Brandschutz   F0
+        
+        Fabrikat: Knauf W 116 oder glw.
+        
+        Angeb. Fabrikat: ..................................
+        [end]
+        [Kurztext]GK-Installationswand W116, F0,  Q3, h=3,30m[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010040[end]
+       [ME]m2[end]
+       [EP]128,000[end]
+       [GB]1536,00[end]
+       #begin[Beschreibung]
+        [Langtext]GK-Installationswand nach DIN 4103 Teil 1, wie folgt:
+        
+        - Unterkonstruktion:    Metallständerwerk mind. 2x CW 50 im       Achsabstand von max. 62,5cm und       Erfordernis
+        - Beplankung:       beidseitig je 2x 12,5 mm GKB
+        - Dämmschicht:       WLG 040, d= 2 x 40mm
+        - Wanddicke:       bis d=400mm
+        - Einbauhöhe:        bis 1,50 m ab OKRF Brüstungshöhe
+        - beidseitig    Q3 gespachtelt
+        - Brandschutz   F0
+        
+        Fabrikat: Knauf W 116 oder glw.
+        
+        Angeb. Fabrikat: ..................................
+        
+        [end]
+        [Kurztext]GK-Installationswand W116, F0,  Q3, h=1,50m[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010100[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]13,000[end]
+       [GB]130,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Spachtelung Oberflächengüte Q4
+        
+        Verspachtelung von Gipsplattenwänden mit erhöhten Anforderungen, nach Qualitätsstufe Q4 gemäß Merkblatt Nr. 2 des Bundesverbandes der Gipsindustrie e.V.,
+        aufbauend auf Standardverspachtelung Q3, Ebenheitstoleranzen mit erhöhten Anforderungen nach DIN 18202, Tab. 3, Zeile 7,* beidseitig,
+        max. Wandhöhe: 3,30 m,
+        Ausführung erfolgt unter Verwendung von Feinspachtelmassen nach DIN EN 13963 Typ 3A, vollflächig, Schichtdicke 2 mm, Oberfläche glätten.
+        Untergrund: Gipsplatten, Q3 - Verspachtelung
+        Lichtverhältnisse: direkt / diffus
+        Weitere Beschichtung/ Wandbekleidung:
+        
+        [end]
+        [Kurztext]Zulage Spachtelung Q4[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010110[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]50,000[end]
+       [GB]50,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage zur Vorposition für die horizontale Beplankung 
+        mit 2 x 12,5 mm GKB-Bauplatten der vg. Vorsatzschale 
+        incl. Verspachtelung nach Herstellervorgaben als Zulage.[end]
+        [Kurztext]Zulage für horizontale Beplankung Vorsatzschale, b=250mm, 2x 12,5 mm einseitig GKB[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010130[end]
+       [ME]m[end]
+       [EP]21,000[end]
+       [GB]2520,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenanschluß gleitend, Deckendurchbiegung bis ca. 20mm. 
+        Plattenstreifen in entsprechender Breite und Stärke in Verbindung mit  Anschlußprofil über Anschlußdichtung befestigen. Ständerprofile undBeplankung um das Durchbiegungsmaß verkürzt einbauen, Plattenkanten 
+        scharfkantig mittels Alu-Kantenschutzprofil an der freien Kante der äußeren Beplankungslage befestigen und flächeneben einspachteln. 
+        Verschraubung mit Schnellbauschrauben jedoch nur in Ständerprofilen, Schraubabstände gemäß Herstellervorschriften. 
+        Der Bodenanschluss der Wand muss auch die Durchbiegung der Decke bis min. 20mm aufnehmen können, keine Verschraubung von Ständerprofile und Gipskartonplatten an das UW-Profil.
+        Wandstärken: 100 bis 150mm
+        [end]
+        [Kurztext]Gleitenden Deckenanschluss[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010140[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]20,500[end]
+       [GB]20,50[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Freistehendes Wandende
+        
+        bestehend aus:
+        Stirnseite mit CW-Ständerprofil bewehren und mit 1x12,5 mm dicken Plattenstreifen beplanken, Eckschutzschienen 31/31/0,4 mm, verzinkt, wandhoch einbauen und verspachteln.
+        Ausführung nach Herstellerangaben.
+        [end]
+        [Kurztext]Zulage Freistehende Wandenden[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010150[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]7,000[end]
+       [GB]7,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Außenecke
+        
+        bestehend aus:
+        Eckschutzschiene 31/31/0,4mm, verzinkt, wandhoch einbauen und verspachteln. Ausführung nach Herstellerangaben.[end]
+        [Kurztext]Zulage Außenecken[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010160[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]7,000[end]
+       [GB]7,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Übergangsprofil
+        
+        bestehend aus:
+        Eckschutzprofil Göppinger 90° als Dehnfugenprofil. Das Profil, besteht aus einem mit Spezialpapier ummantelten Metallwinkel. Profil verzinkt, wandhoch einbauen und verspachteln. Ausführung nach Herstellerangaben. 
+        [end]
+        [Kurztext]Zulage Übergangsprofil[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010180[end]
+       [ME]Stck[end]
+       [EP]250,000[end]
+       [GB]12000,00[end]
+       #begin[Beschreibung]
+        [Langtext]Wandverjüngungen mit einer Länge von 312,5 mm,
+        Dicke der Wandverjüngung 47 mm
+        Bewertetes Schalldämm-Maß Rw,R = 45 dB
+        
+        Anschluss an die Fassade mit 2x L-Winkel 13/30/08, Befesti-
+        gung mit bauaufsichtlich zugelassenen Befestigungsmitteln. Anschluss an die Ständerwand mit 2x L-Winkel 13/30/08,
+        
+        Dämmschicht aus Mineralwolle nach DIN EN 13162, einlagig, Dicke 20 mm, dicht stoßen, abrutschsicher verlegen, mit Akustik-Dämmplatte
+        
+        Beplankung aus einer Lage Silentboard 12,5 mm, an beiden Seiten der Wandverjüngung, Verschraubung mit Diamant-Schrauben, Verarbeitung gemäß DIN 18181.
+        
+        Detail gem. Leitdetail 
+        inkl. PU-Versieglung[end]
+        [Kurztext]Anschluss Fassade Außenwand Fassadenschwert[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010190[end]
+       [ME]Stck[end]
+       [EP]71,500[end]
+       [GB]1072,50[end]
+       #begin[Beschreibung]
+        [Langtext]Türöffnung herstellen, 1-flg.
+        
+        incl. Sturzprofil, seitlich raumhoch verstärken, mit Metallständer-
+        profilen UA/CW 75, einschl. Boden- und Deckenanschluss mit Türpfostensteckwinkel, befestigen mit Winkeln, Dübeln und Schrauben.
+        
+        Baurichtmaße: b= 760-1.010mm / h= bis 2.135mm
+        Wanddicke: d= 100-125mm
+        Wandart: W112 oglw.
+        
+        [end]
+        [Kurztext]Türöffnung 1- flg., B/H 760 - 1010/2135 mm, WD 100 - 125 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010200[end]
+       [ME]Stck[end]
+       [EP]91,500[end]
+       [GB]91,50[end]
+       #begin[Beschreibung]
+        [Langtext]Türöffnung herstellen, 1-flg.
+        
+        incl. Sturzprofil, seitlich raumhoch verstärken, mit Metallständer-
+        profilen UA/CW 75, einschl. Boden- und Deckenanschluss mit Türpfostensteckwinkel, befestigen mit Winkeln, Dübeln und Schrauben.
+        
+        Baurichtmaße: b= 1.135-1.510mm / h= bis 2.135mm
+        Wanddicke: d= 100-125mm
+        Wandart: W112 oglw.
+        
+        [end]
+        [Kurztext]Türöffnung 1- flg. B/H 1135 - 1510/2135 mm, WD 100 - 125mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010210[end]
+       [ME]Stck[end]
+       [EP]190,000[end]
+       [GB]570,00[end]
+       #begin[Beschreibung]
+        [Langtext]Türöffnung herstellen, 2-flg.
+        
+        incl. Sturzprofil, seitlich raumhoch verstärken, mit Metallständer-
+        profilen UA/CW 75, einschl. Boden- und Deckenanschluss mit Türpfostensteckwinkel, befestigen mit Winkeln, Dübeln und Schrauben.
+        
+        Baurichtmaße: b= 2.010 mm / h= bis 2.135mm
+        Wanddicke: d= 100-125mm
+        Wandart: W112 oglw.[end]
+        [Kurztext]Türöffnung 2- flg. B/H 2010/2135 mm, WD 100 - 125mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010215[end]
+       [ME]Stck[end]
+       [EP]240,000[end]
+       [GB]12720,00[end]
+       #begin[Beschreibung]
+        [Langtext]Position wie vor, jedoch mit Schwerlastprofil - C50
+        Schwerlastprofil für Metallständerwände UW 50,
+        Wandhöhe: 3,30 m
+        (maximale Wandhöhe: 4,0 m)
+        
+        aus Stahlblechprofil C50/50/2,0, verzinkt, befestigt an Rohfußboden und Decke mittels Fußwinkel/Gleitwinkel mit Halteprofil.
+        Systembefestigung mit 1x Bolzenanker M8x76, U-Scheibe
+        Maximal zulässiges Türgewicht siehe Montageanleitung Schwerlastprofil K691-A01.de
+        
+        Bei doppelflügeligen Türen, Türsturzprofil mit Schwerlastprofil herstellen.
+        Verbindung mit geeigneten Winkeln und Befestigungsmitteln.
+        
+        Ausführung gemäß Knauf Montageanleitung K691-A01.de
+        Erzeugnis: Knauf Schwerlastprofil C50 o. gleichwertig
+        [end]
+        [Kurztext]Zulage zur eigentlichen Türöffnung (Türauschnitte verstärkt)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010220[end]
+       [ME]m[end]
+       [EP]25,000[end]
+       [GB]400,00[end]
+       #begin[Beschreibung]
+        [Langtext]Universal-Traversen aus Mehrschichtenholzplatten d = 23 mm und seitlichen Stahlblech-Laschen d = 0,6 mm, mit jeweils 3 vorgebohrten Löchern zur Befestigung an den CW-Profilen.
+        - für Lasten bis 1,5 kN/m Wandlänge
+        - h=ca. 3,00m
+        
+        Fabrikat: Knauf Universal-Traverse W 234 o. glw.
+        [end]
+        [Kurztext]Universal-Traverse für wandhängende Lasten[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010250[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]12,000[end]
+       [GB]12,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte herstellen, Abmessungen bis 15 cm SL[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010260[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]16,000[end]
+       [GB]16,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte herstellen, Abmessungen bis 30 cm SL[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010270[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]18,000[end]
+       [GB]18,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte schließen, Abmessungen bis 15 cm SL[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010280[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]24,000[end]
+       [GB]24,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte schließen, Abmessungen bis 30 cm SL[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010290[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]7,000[end]
+       [GB]7,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte herstellen, Durchmesser bis 75 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010300[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]9,000[end]
+       [GB]9,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte herstellen, Durchmesser bis 150 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010310[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]9,000[end]
+       [GB]9,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte schließen, Durchmesser bis 75 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010320[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]12,000[end]
+       [GB]12,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte schließen, Durchmesser bis 150 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0101010330[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]60,000[end]
+       [GB]600,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage für Ausschitte in Deckenabschottung
+        
+        -Ausschnitt herstellen für Überströmelemente
+        -Format b x h = ca. 100x20cm
+        -inkl. erforderlicher Auswechselung der UK
+        
+        [end]
+        [Kurztext]Zulage für Ausschnitte in Deckenabschottung, bxh = 100 x 20cm[end]
+       #end[Beschreibung]
+      #end[Position]
+      [Summe]107820,00[end]
+     #end[LVBereich]
+     [Summe]107820,00[end]
+    #end[LVBereich]
+    #begin[LVBereich]
+     [OZ]0102[end]
+     [Bez]Trockenbauarbeiten - Decken[end]
+     #begin[LVBereich]
+      [OZ]010201[end]
+      [Bez]Trockenbauarbeiten - GK-Decke[end]
+      #begin[Position]
+       [OZ]0102010010[end]
+       [ME]m2[end]
+       [EP]75,000[end]
+       [GB]450,00[end]
+       #begin[Beschreibung]
+        [Langtext]Abhangdecke aus Gipskartonplatten nach DIN 18168-1.
+        1-lagig ohne Brandschutzanforderung.
+        Oberfläche glatt gespachtelt für Anstrich.
+        Oberfläche in Qualitätsstufe Q2.
+        Höhe: 3,50 m
+        Abhanghöhe: bis 40 cm
+        
+        Erzeugnis: Knauf System D-112, Typ GKB o. glw.
+        
+        Gew. Fabrikat:........................................
+        [end]
+        [Kurztext]D112 Unterdecke, F0, Q2, GKB 1x 12,5 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102010020[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]16,000[end]
+       [GB]16,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112:
+        2-lagige Beplankung mit GKB[end]
+        [Kurztext]Zulage 2-lagige Beplankung[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102010030[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]2,500[end]
+       [GB]2,50[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112
+        Beplankung mit 1 x 12,5 mm GKB-I Bauplatten in Feucht- und Naßräumen inkl. Verspachtelung und Nachimprägnierung der Schnittkanten nach Herstellervorgaben.
+        [end]
+        [Kurztext]Zulage Bekleidung GKB-I, einseitig, 1x12,5mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102010040[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]5,000[end]
+       [GB]5,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112
+        Beplankung mit 2 x 12,5 mm GKB-I Bauplatten in Feucht- und Naßräumen inkl. Verspachtelung und Nachimprägnierung der Schnittkanten nach Herstellervorgaben.[end]
+        [Kurztext]Zulage Bekleidung GKB-I, einseitig, 2x12,5mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102010050[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]4,000[end]
+       [GB]4,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112
+        Spachteln und Schleifen der Gipskartonoberfläche in Qualitätsstufe Q3[end]
+        [Kurztext]Zulage Verspachtelung Oberfläche  in Q3[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102010060[end]
+       [ME]m[end]
+       [EP]6,000[end]
+       [GB]120,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Wandanschluss mit Winkelprofil für saubere Ausbildung einer Schattenfuge.[end]
+        [Kurztext]Wandanschluss mit Winkelprofil[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102010070[end]
+       [ME]m[end]
+       [EP]7,000[end]
+       [GB]140,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Deckenabschluss mit Kantenschutzprofil
+        [end]
+        [Kurztext]Kantenschutzprofil[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102010080[end]
+       [ME]Stck[end]
+       [EP]16,000[end]
+       [GB]160,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen herstellen für Einbauleuchten/Lautsprecher etc: 
+        eckig, Kantenlänge bis 300 x 300mm[end]
+        [Kurztext]Öffnung herstellen, Abmessung bis 30cm SL (Beleuchtung)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102010090[end]
+       [ME]Stck[end]
+       [EP]16,000[end]
+       [GB]160,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen herstellen für Einbauleuchten/Lautsprecher etc: 
+        rund, Du bis 300mm[end]
+        [Kurztext]Öffnung herstellen, Durchmesser  bis Du =30cm (Beleuchtung)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102010100[end]
+       [ME]Stck[end]
+       [EP]51,000[end]
+       [GB]255,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 40/40 cm, System Knauf Alu-Top, mit GK-Füllung, ohne Brandschutzanforderung[end]
+        [Kurztext]Revisionsklappe REVO 12,5 40x40 (Alutop)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102010110[end]
+       [ME]Stck[end]
+       [EP]62,000[end]
+       [GB]310,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 60/60 cm, System Knauf Alu-Top, mit GK-Füllung, ohne Brandschutzanforderung[end]
+        [Kurztext]Revisionsklappe REVO 12,5 60x60 (Alutop)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102010120[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]215,000[end]
+       [GB]215,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 40/40 cm, System Knauf Alu-Top, mit GK-Füllung, Brandschutzanforderung F90[end]
+        [Kurztext]Revisionsklappe, REVO 12,5 40x40 (Alutop), F90[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102010130[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]265,000[end]
+       [GB]265,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 60/60 cm, System Knauf Alu-Top, mit GK-Füllung, Brandschutzanforderung F90[end]
+        [Kurztext]Revisionsklappe REVO 12,5 60x60 (Alutop), F90[end]
+       #end[Beschreibung]
+      #end[Position]
+      [Summe]1595,00[end]
+     #end[LVBereich]
+     #begin[LVBereich]
+      [OZ]010202[end]
+      [Bez]Trockenbauarbeiten - Akustikdecke[end]
+      #begin[Position]
+       [OZ]0102020010[end]
+       [ME]m2[end]
+       [EP]100,000[end]
+       [GB]5800,00[end]
+       #begin[Beschreibung]
+        [Langtext]Alle Unterkonstruktionsteile aus verzinktem Material.  
+        Anschlüsse mit Stufenwinkel als saubere Schattenfuge. 
+        Decklage aus geschlitzten Gipsplatten, einlagig, 12,5 mm stark, Blockschlitzung, umlaufend 12,5 cm Fries, Rückseite kaschiert mit Akustikvlies, Fugen gespachtelt, Oberfläche gespachtelt und mit Malervlies beklebt. Deckender Anstrich in Dispersionsfarbe hell nach Wahl des AG. Wo erforderlich, 
+        Ausführung in entsprechender Brandschutz Qualität.  
+        
+        Auf die Raumakustik wird besonderen Wert gelegt. 
+        
+        Im Bereich von Deckeneinbauten sind die Löcher im Bereich von 10 cm zu verschließen. 
+        
+        Dämmschicht aus Mineralwolle nach akustischer Erfordernis. 
+        
+        Fabrikat: D127, Knauf Cleaneo® Akustik-Plattendecke
+        Lochbild 15/30 R oder 12/25 R
+        
+        
+        [end]
+        [Kurztext]Akustikdecke inkl. umlaufenden Fries, Fabr. Knauf Cleaneo Akustikdecke D127[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102020020[end]
+       [ME]m[end]
+       [EP]9,000[end]
+       [GB]90,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage für Wandanschluss mit Stufenwinkel als saubere Schattenfuge.
+        [end]
+        [Kurztext]Zulage für Wandanschluss mit Stufenwinklel und Schattenfuge[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102020030[end]
+       [ME]m[end]
+       [EP]40,000[end]
+       [GB]1280,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenschürze als senkrechten Randabschluß
+        der Decke. Von UK-Rohdecke bis UK-abgehängte Decke,
+        bestehend aus:
+        - 2x 12,5mm GKB
+        - Höhe bis ca. 40 cm
+        
+        einschl. erforderlicher Unterkonstruktion und
+        Befestigungsmittel.
+        [end]
+        [Kurztext]Deckenschürze, senkrecht, 2x12,5mm GKB, h=ca.40cm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102020040[end]
+       [ME]Stck[end]
+       [EP]16,000[end]
+       [GB]80,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen für Einbauleuchten/Lautsprecher etc: 
+        rund, DN bis 300 mm[end]
+        [Kurztext]Öffnungen für Leuchten/Lautsprecher o. ä., rund, bis Du=300mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102020050[end]
+       [ME]Stck[end]
+       [EP]16,000[end]
+       [GB]80,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen für Einbauleuchten/Lautsprecher etc: 
+        eckig, bis 300x300 mm[end]
+        [Kurztext]Öffnungen für Leuchten/Lautsprecher o. ä., eckig, bis 300x300mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      [Summe]7330,00[end]
+     #end[LVBereich]
+     #begin[LVBereich]
+      [OZ]010203[end]
+      [Bez]Trockenbauarbeiten - GK-Deckenschürze[end]
+      #begin[Position]
+       [OZ]0102030010[end]
+       [ME]m[end]
+       [EP]100,000[end]
+       [GB]500,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenschürze als senkrechten Randabschluß der Decke. 
+        Von UK-Rohdecke bis UK-abgehängte Decke,
+        bestehend aus:
+        - 2x 12,5mm GKB
+        - Höhe bis ca. 67 cm
+        - inkl. Unterkonstruktion und Befestigungsmittel[end]
+        [Kurztext]Deckenschürze,  h= ca.0,67 m (Alu-Blechdecke)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102030020[end]
+       [Bedarf]E[end]
+       [ME]m[end]
+       [EP]110,000[end]
+       [GB]110,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenschürze als senkrechten Randabschluß der Decke. 
+        Von UK-Rohdecke bis UK-abgehängte Decke,
+        bestehend aus:
+        - 2x 12,5mm GKB
+        - Höhe bis ca. 90 cm
+        - inkl. Unterkonstruktion und Befestigungsmittel[end]
+        [Kurztext]Deckenschürze,  h= ca.0,90 m (Akustikdecke)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102030040[end]
+       [ME]m[end]
+       [EP]150,000[end]
+       [GB]840,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenabkofferung mit waagrechten und senkkrechte Trockenbauverkleidung inkl. Randabschluß der Decke/Wand  und Eckausbildung
+        bestehend aus:
+        - 2x 12,5mm GKB
+        - Höhe bis ca. 60cm
+        - Breite bis ca. 150cm
+        - inkl. Unterkonstruktion und Befestigungsmittel[end]
+        [Kurztext]Deckenabkofferung, b=ca. 1,50m, h=ca. 0,60m[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0102030050[end]
+       [ME]m[end]
+       [EP]7,000[end]
+       [GB]53,90[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage für Außenecke
+        
+        bestehend aus:
+        Eckschutzschiene 31/31/0,4mm, verzinkt, wandhoch einbauen und verspachteln. Ausführung nach Herstellerangaben.[end]
+        [Kurztext]Zulage für Eckschutzprofil[end]
+       #end[Beschreibung]
+      #end[Position]
+      [Summe]1393,90[end]
+     #end[LVBereich]
+     [Summe]10318,90[end]
+    #end[LVBereich]
+    [Summe]118138,90[end]
+   #end[LVBereich]
+   #begin[LVBereich]
+    [OZ]02[end]
+    [Bez]Mietbereich DWD EG + 4.OG[end]
+    #begin[LVBereich]
+     [OZ]0201[end]
+     [Bez]Trockenbauarbeiten - Wände[end]
+     #begin[LVBereich]
+      [OZ]020101[end]
+      [Bez]Trockenbauarbeiten - Wände[end]
+      #begin[Position]
+       [OZ]0201010010[end]
+       [ME]m2[end]
+       [EP]60,500[end]
+       [GB]85547,00[end]
+       #begin[Beschreibung]
+        [Langtext]GK-Metallständerwand nach DIN 4103 Teil 1, wie folgt:
+        
+        - Unterkonstruktion:    Metallständerwerk UW50 und CW50 im       Achsabstand von max. 62,5 cm und       Erfordernis.
+        - Beplankung:        beidseitig je 2x 12,5 mm GKB
+        - Dämmschicht:    WLG 040 d= 40 mm
+        - Wanddicke:       d=100 mm
+        - Einbauhöhe:       bis 3,30 m ab OKRF
+        - beidseitig    Q3 gespachtelt
+        - Brandschutz   F0
+        
+        Fabrikat: Knauf W 112 oder glw.
+        
+        Angeb. Fabrikat: ..................................[end]
+        [Kurztext]GK-Metallständerwand W112, F0, Q3, d= 100mm, 2x 12,5mm beidseitig GKB[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010020[end]
+       [ME]m2[end]
+       [EP]61,500[end]
+       [GB]184,50[end]
+       #begin[Beschreibung]
+        [Langtext]GK-Metallständerwand nach DIN 4103 Teil 1, wie folgt:
+        
+        - Unterkonstruktion:    Metallständerwerk UW50 und CW50 im       Achsabstand von max. 62,5 cm und       Erfordernis.
+        - Beplankung:        beidseitig je 2x 12,5 mm GKB
+        - Dämmschicht:    WLG 040 d= 40 mm
+        - Wanddicke:       d=125 mm
+        - Einbauhöhe:       bis 3,30 m ab OKRF
+        - beidseitig    Q3 gespachtelt
+        - Brandschutz   F0
+        
+        Fabrikat: Knauf W 112 oder glw.
+        
+        Angeb. Fabrikat: ..................................[end]
+        [Kurztext]GK-Metallständerwand W112, F0, Q3, d= 125mm, 2x 12,5mm beidseitig GKB[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010030[end]
+       [ME]m2[end]
+       [EP]63,000[end]
+       [GB]189,00[end]
+       #begin[Beschreibung]
+        [Langtext]GK-Metallständerwand nach DIN 4103 Teil 1, wie folgt:
+        
+        - Unterkonstruktion:    Metallständerwerk UW100 und CW100       im Achsabstand von max. 62,5 cm und       Erfordernis.
+        - Beplankung:        beidseitig je 2x 12,5 mm GKB
+        - Dämmschicht:    WLG 040 d= 40 mm
+        - Wanddicke:       d=150 mm
+        - Einbauhöhe:       bis 3,30 m ab OKRF
+        - beidseitig    Q3 gespachtelt
+        - Brandschutz   F0
+        
+        Fabrikat: Knauf W 112 oder glw.
+        
+        Angeb. Fabrikat: ..................................[end]
+        [Kurztext]GK-Metallständerwand W112, F0, Q3, d= 150mm, 2x 12,5mm beidseitig GKB[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010040[end]
+       [ME]m2[end]
+       [EP]64,500[end]
+       [GB]1483,50[end]
+       #begin[Beschreibung]
+        [Langtext]GK-Metallständerwand nach DIN 4103 Teil 1, wie folgt:
+        
+        - Unterkonstruktion:    Metallständerwerk UW50 und CW50 im       Achsabstand von max. 62,5 cm und       Erfordernis.
+        - Beplankung:        beidseitig je 2x 12,5 mm GKF
+        - Dämmschicht:    WLG 040 d= 40 mm
+        - Wanddicke:       d=100 mm
+        - Einbauhöhe:       bis 3,45 m ab OKRF
+        - beidseitig    Q3 gespachtelt
+        - Brandschutz   F90
+        
+        Fabrikat: Knauf W 112 oder glw.
+        
+        Angeb. Fabrikat: ..................................[end]
+        [Kurztext]GK-Metallständerwand W112, F90, Q3, d= 100mm, 2x 12,5mm beidseitig GKF[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010090[end]
+       [ME]m2[end]
+       [EP]78,000[end]
+       [GB]468,00[end]
+       #begin[Beschreibung]
+        [Langtext]GK-Installationswand nach DIN 4103 Teil 1, wie folgt:
+        
+        - Unterkonstruktion:    Metallständerwerk mind. 2x CW 50 im       Achsabstand von max. 62,5cm und       Erfordernis
+        - Beplankung:       beidseitig je 2x 12,5 mm GKB
+        - Dämmschicht:       WLG 040, d= 2 x 40mm
+        - Wanddicke:       bis d=400mm
+        - Einbauhöhe:        bis 3,30 m ab OKRF
+        - beidseitig    Q3 gespachtelt
+        - Brandschutz   F0
+        
+        Fabrikat: Knauf W 116 oder glw.
+        
+        Angeb. Fabrikat: ..................................[end]
+        [Kurztext]GK-Installationswand W116, F0,  Q3, h=3,30m[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010095[end]
+       [ME]m2[end]
+       [EP]128,000[end]
+       [GB]384,00[end]
+       #begin[Beschreibung]
+        [Langtext]GK-Installationswand nach DIN 4103 Teil 1, wie folgt:
+        
+        - Unterkonstruktion:    Metallständerwerk mind. 2x CW 50 im       Achsabstand von max. 62,5cm und       Erfordernis
+        - Beplankung:       beidseitig je 2x 12,5 mm GKB
+        - Dämmschicht:       WLG 040, d= 2 x 40mm
+        - Wanddicke:       bis d=400mm
+        - Einbauhöhe:        bis 1,50 m ab OKRF Brüstungshöhe
+        - beidseitig    Q3 gespachtelt
+        - Brandschutz   F0
+        
+        Fabrikat: Knauf W 116 oder glw.
+        
+        Angeb. Fabrikat: ..................................[end]
+        [Kurztext]GK-Installationswand W116, F0,  Q3, h=1,50m[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010100[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]13,000[end]
+       [GB]130,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Spachtelung Oberflächengüte Q4
+        
+        Verspachtelung von Gipsplattenwänden mit erhöhten Anforderungen, nach Qualitätsstufe Q4 gemäß Merkblatt Nr. 2 des Bundesverbandes der Gipsindustrie e.V.,
+        aufbauend auf Standardverspachtelung Q3, Ebenheitstoleranzen mit erhöhten Anforderungen nach DIN 18202, Tab. 3, Zeile 7,* beidseitig,
+        max. Wandhöhe: 3,30 m,
+        Ausführung erfolgt unter Verwendung von Feinspachtelmassen nach DIN EN 13963 Typ 3A, vollflächig, Schichtdicke 2 mm, Oberfläche glätten.
+        Untergrund: Gipsplatten, Q3 - Verspachtelung
+        Lichtverhältnisse: direkt / diffus
+        Weitere Beschichtung/ Wandbekleidung:
+        [end]
+        [Kurztext]Zulage Spachtelung Q4[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010110[end]
+       [Bedarf]E[end]
+       [ME]m[end]
+       [EP]50,000[end]
+       [GB]50,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage zur Vorposition für die horizontale Beplankung 
+        mit 2 x 12,5 mm GKB-Bauplatten der vg. Vorsatzschale 
+        incl. Verspachtelung nach Herstellervorgaben als Zulage.[end]
+        [Kurztext]Zulage für horizontale Beplankung Vorsatzschale, b=250mm, 2x 12,5 mm einseitig GKB[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010130[end]
+       [ME]m[end]
+       [EP]21,000[end]
+       [GB]2520,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenanschluß gleitend, Deckendurchbiegung bis ca. 20mm. 
+        Plattenstreifen in entsprechender Breite und Stärke in Verbindung mit  Anschlußprofil über Anschlußdichtung befestigen. Ständerprofile undBeplankung um das Durchbiegungsmaß verkürzt einbauen, Plattenkanten 
+        scharfkantig mittels Alu-Kantenschutzprofil an der freien Kante der äußeren Beplankungslage befestigen und flächeneben einspachteln. 
+        Verschraubung mit Schnellbauschrauben jedoch nur in Ständerprofilen, Schraubabstände gemäß Herstellervorschriften. 
+        Der Bodenanschluss der Wand muss auch die Durchbiegung der Decke bis min. 20mm aufnehmen können, keine Verschraubung von Ständerprofile und Gipskartonplatten an das UW-Profil.
+        Wandstärken: 100 bis 150mm
+        [end]
+        [Kurztext]Gleitenden Deckenanschluss[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010140[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]20,500[end]
+       [GB]20,50[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Freistehendes Wandende
+        
+        bestehend aus:
+        Stirnseite mit CW-Ständerprofil bewehren und mit 1x12,5 mm dicken Plattenstreifen beplanken, Eckschutzschienen 31/31/0,4 mm, verzinkt, wandhoch einbauen und verspachteln.
+        Ausführung nach Herstellerangaben.
+        [end]
+        [Kurztext]Zulage Freistehende Wandenden[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010150[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]7,000[end]
+       [GB]7,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Außenecke
+        
+        bestehend aus:
+        Eckschutzschiene 31/31/0,4mm, verzinkt, wandhoch einbauen und verspachteln. Ausführung nach Herstellerangaben.[end]
+        [Kurztext]Zulage Außenecken[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010160[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]7,000[end]
+       [GB]7,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Übergangsprofil
+        
+        bestehend aus:
+        Eckschutzprofil Göppinger 90° als Dehnfugenprofil. Das Profil, besteht aus einem mit Spezialpapier ummantelten Metallwinkel. Profil verzinkt, wandhoch einbauen und verspachteln. Ausführung nach Herstellerangaben. 
+        [end]
+        [Kurztext]Zulage Übergangsprofil[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010180[end]
+       [ME]Stck[end]
+       [EP]250,000[end]
+       [GB]8500,00[end]
+       #begin[Beschreibung]
+        [Langtext]Wandverjüngungen mit einer Länge von 312,5 mm,
+        Dicke der Wandverjüngung 47 mm
+        Bewertetes Schalldämm-Maß Rw,R = 45 dB
+        
+        Anschluss an die Fassade mit 2x L-Winkel 13/30/08, Befesti-
+        gung mit bauaufsichtlich zugelassenen Befestigungsmitteln. Anschluss an die Ständerwand mit 2x L-Winkel 13/30/08,
+        
+        Dämmschicht aus Mineralwolle nach DIN EN 13162, einlagig, Dicke 20 mm, dicht stoßen, abrutschsicher verlegen, mit Akustik-Dämmplatte
+        
+        Beplankung aus einer Lage Silentboard 12,5 mm, an beiden Seiten der Wandverjüngung, Verschraubung mit Diamant-Schrauben, Verarbeitung gemäß DIN 18181.[end]
+        [Kurztext]Anschluss Fassade Außenwand Fassadenschwert[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010190[end]
+       [ME]Stck[end]
+       [EP]71,500[end]
+       [GB]429,00[end]
+       #begin[Beschreibung]
+        [Langtext]Türöffnung herstellen, 1-flg.
+        
+        incl. Sturzprofil, seitlich raumhoch verstärken, mit Metallständer-
+        profilen UA/CW 75, einschl. Boden- und Deckenanschluss mit Türpfostensteckwinkel, befestigen mit Winkeln, Dübeln und Schrauben.
+        
+        Baurichtmaße: b= 760-1.010mm / h= bis 2.135mm
+        Wanddicke: d= 100-125mm
+        Wandart: W112 oglw.
+        
+        [end]
+        [Kurztext]Türöffnung 1- flg., B/H 760 - 1010/2135 mm, WD 100 - 125 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010200[end]
+       [ME]Stck[end]
+       [EP]91,500[end]
+       [GB]4300,50[end]
+       #begin[Beschreibung]
+        [Langtext]Türöffnung herstellen, 1-flg.
+        
+        incl. Sturzprofil, seitlich raumhoch verstärken, mit Metallständer-
+        profilen UA/CW 75, einschl. Boden- und Deckenanschluss mit Türpfostensteckwinkel, befestigen mit Winkeln, Dübeln und Schrauben.
+        
+        Baurichtmaße: b= 1.135-1.510mm / h= bis 2.135mm
+        Wanddicke: d= 100-125mm
+        Wandart: W112 oglw.
+        
+        [end]
+        [Kurztext]Türöffnung 1- flg. B/H 1135 - 1510/2135 mm, WD 100 - 125mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010210[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]190,000[end]
+       [GB]190,00[end]
+       #begin[Beschreibung]
+        [Langtext]Türöffnung herstellen, 2-flg.
+        
+        incl. Sturzprofil, seitlich raumhoch verstärken, mit Metallständer-
+        profilen UA/CW 75, einschl. Boden- und Deckenanschluss mit Türpfostensteckwinkel, befestigen mit Winkeln, Dübeln und Schrauben.
+        
+        Baurichtmaße: b= 2.010 mm / h= bis 2.135mm
+        Wanddicke: d= 100-125mm
+        Wandart: W112 oglw.[end]
+        [Kurztext]Türöffnung 2- flg. B/H 2010/2135 mm, WD 100 - 125mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010215[end]
+       [ME]Stck[end]
+       [EP]240,000[end]
+       [GB]13440,00[end]
+       #begin[Beschreibung]
+        [Langtext]Position wie vor, jedoch mit Schwerlastprofil - C50
+        Schwerlastprofil für Metallständerwände UW 50,
+        Wandhöhe: 3,30 m
+        (maximale Wandhöhe: 4,0 m)
+        
+        aus Stahlblechprofil C50/50/2,0, verzinkt, befestigt an Rohfußboden und Decke mittels Fußwinkel/Gleitwinkel mit Halteprofil.
+        Systembefestigung mit 1x Bolzenanker M8x76, U-Scheibe
+        Maximal zulässiges Türgewicht siehe Montageanleitung Schwerlastprofil K691-A01.de
+        
+        Bei doppelflügeligen Türen, Türsturzprofil mit Schwerlastprofil herstellen.
+        Verbindung mit geeigneten Winkeln und Befestigungsmitteln.
+        
+        Ausführung gemäß Knauf Montageanleitung K691-A01.de
+        Erzeugnis: Knauf Schwerlastprofil C50 o. gleichwertig
+        [end]
+        [Kurztext]Zulage zur eigentlichen Türöffnung (Türauschnitte verstärkt)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010220[end]
+       [ME]m[end]
+       [EP]25,000[end]
+       [GB]425,00[end]
+       #begin[Beschreibung]
+        [Langtext]Universal-Traversen aus Mehrschichtenholzplatten d = 23 mm und seitlichen Stahlblech-Laschen d = 0,6 mm, mit jeweils 3 vorgebohrten Löchern zur Befestigung an den CW-Profilen.
+        - für Lasten bis 1,5 kN/m Wandlänge
+        - h=ca. 3,00m
+        
+        Fabrikat: Knauf Universal-Traverse W 234 o. glw.
+        [end]
+        [Kurztext]Universal-Traverse für wandhängende Lasten[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010250[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]12,000[end]
+       [GB]12,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte herstellen, Abmessungen bis 15 cm SL[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010260[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]16,000[end]
+       [GB]16,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte herstellen, Abmessungen bis 30 cm SL[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010270[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]18,000[end]
+       [GB]18,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte schließen, Abmessungen bis 15 cm SL[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010280[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]24,000[end]
+       [GB]24,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte schließen, Abmessungen bis 30 cm SL[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010290[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]7,000[end]
+       [GB]7,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte herstellen, Durchmesser bis 75 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010300[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]9,000[end]
+       [GB]9,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte herstellen, Durchmesser bis 150 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010310[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]9,000[end]
+       [GB]9,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte schließen, Durchmesser bis 75 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010320[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]12,000[end]
+       [GB]12,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte schließen, Durchmesser bis 150 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0201010330[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]60,000[end]
+       [GB]600,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage für Ausschitte in Deckenabschottung
+        
+        -Ausschnitt herstellen für Überströmelemente
+        -Format b x h = ca. 100x20cm
+        -inkl. erforderlicher Auswechselung der UK
+        
+        [end]
+        [Kurztext]Zulage für Ausschnitte in Deckenabschottung, bxh = 100 x 20cm[end]
+       #end[Beschreibung]
+      #end[Position]
+      [Summe]117870,50[end]
+     #end[LVBereich]
+     [Summe]117870,50[end]
+    #end[LVBereich]
+    #begin[LVBereich]
+     [OZ]0202[end]
+     [Bez]Trockenbauarbeiten - Decken[end]
+     #begin[LVBereich]
+      [OZ]020201[end]
+      [Bez]Trockenbauarbeiten - GK-Decke[end]
+      #begin[Position]
+       [OZ]0202010010[end]
+       [ME]m2[end]
+       [EP]75,000[end]
+       [GB]450,00[end]
+       #begin[Beschreibung]
+        [Langtext]Abhangdecke aus Gipskartonplatten nach DIN 18168-1.
+        1-lagig ohne Brandschutzanforderung.
+        Oberfläche glatt gespachtelt für Anstrich.
+        Oberfläche in Qualitätsstufe Q2.
+        Höhe: 3,50 m
+        Abhanghöhe: bis 40 cm
+        
+        Erzeugnis: Knauf System D-112, Typ GKB o. glw.
+        
+        Gew. Fabrikat:........................................
+        [end]
+        [Kurztext]D112 Unterdecke, F0, Q2, GKB 1x 12,5 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202010020[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]16,000[end]
+       [GB]16,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112:
+        2-lagige Beplankung mit GKB[end]
+        [Kurztext]Zulage 2-lagige Beplankung[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202010030[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]2,500[end]
+       [GB]2,50[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112
+        Beplankung mit 1 x 12,5 mm GKB-I Bauplatten in Feucht- und Naßräumen inkl. Verspachtelung und Nachimprägnierung der Schnittkanten nach Herstellervorgaben.
+        [end]
+        [Kurztext]Zulage Bekleidung GKB-I, einseitig, 1x12,5mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202010040[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]5,000[end]
+       [GB]5,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112
+        Beplankung mit 2 x 12,5 mm GKB-I Bauplatten in Feucht- und Naßräumen inkl. Verspachtelung und Nachimprägnierung der Schnittkanten nach Herstellervorgaben.[end]
+        [Kurztext]Zulage Bekleidung GKB-I, einseitig, 2x12,5mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202010050[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]4,000[end]
+       [GB]4,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112
+        Spachteln und Schleifen der Gipskartonoberfläche in Qualitätsstufe Q3[end]
+        [Kurztext]Zulage Verspachtelung Oberfläche  in Q3[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202010060[end]
+       [ME]m[end]
+       [EP]6,000[end]
+       [GB]120,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Wandanschluss mit Winkelprofil für saubere Ausbildung einer Schattenfuge.[end]
+        [Kurztext]Wandanschluss mit Winkelprofil[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202010070[end]
+       [ME]m[end]
+       [EP]7,000[end]
+       [GB]140,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Deckenabschluss mit Kantenschutzprofil
+        [end]
+        [Kurztext]Kantenschutzprofil[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202010080[end]
+       [ME]Stck[end]
+       [EP]16,000[end]
+       [GB]160,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen herstellen für Einbauleuchten/Lautsprecher etc: 
+        eckig, Kantenlänge bis 300 x 300mm[end]
+        [Kurztext]Öffnung herstellen, Abmessung bis 30cm SL (Beleuchtung)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202010090[end]
+       [ME]Stck[end]
+       [EP]16,000[end]
+       [GB]160,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen herstellen für Einbauleuchten/Lautsprecher etc: 
+        rund, Du bis 300mm[end]
+        [Kurztext]Öffnung herstellen, Durchmesser  bis Du =30cm (Beleuchtung)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202010100[end]
+       [ME]Stck[end]
+       [EP]51,000[end]
+       [GB]255,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 40/40 cm, System Knauf Alu-Top, mit GK-Füllung, ohne Brandschutzanforderung[end]
+        [Kurztext]Revisionsklappe REVO 12,5 40x40 (Alutop)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202010110[end]
+       [ME]Stck[end]
+       [EP]62,000[end]
+       [GB]310,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 60/60 cm, System Knauf Alu-Top, mit GK-Füllung, ohne Brandschutzanforderung[end]
+        [Kurztext]Revisionsklappe REVO 12,5 60x60 (Alutop)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202010120[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]215,000[end]
+       [GB]215,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 40/40 cm, System Knauf Alu-Top, mit GK-Füllung, Brandschutzanforderung F90[end]
+        [Kurztext]Revisionsklappe, REVO 12,5 40x40 (Alutop), F90[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202010130[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]265,000[end]
+       [GB]265,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 60/60 cm, System Knauf Alu-Top, mit GK-Füllung, Brandschutzanforderung F90[end]
+        [Kurztext]Revisionsklappe REVO 12,5 60x60 (Alutop), F90[end]
+       #end[Beschreibung]
+      #end[Position]
+      [Summe]1595,00[end]
+     #end[LVBereich]
+     #begin[LVBereich]
+      [OZ]020202[end]
+      [Bez]Trockenbauarbeiten - Akustikdecke[end]
+      #begin[Position]
+       [OZ]0202020010[end]
+       [ME]m2[end]
+       [EP]100,000[end]
+       [GB]5800,00[end]
+       #begin[Beschreibung]
+        [Langtext]Alle Unterkonstruktionsteile aus verzinktem Material.  
+        Anschlüsse mit Stufenwinkel als saubere Schattenfuge. 
+        Decklage aus geschlitzten Gipsplatten, einlagig, 12,5 mm stark, Blockschlitzung, umlaufend 12,5 cm Fries, Rückseite kaschiert mit Akustikvlies, Fugen gespachtelt, Oberfläche gespachtelt und mit Malervlies beklebt. Deckender Anstrich in Dispersionsfarbe hell nach Wahl des AG. Wo erforderlich, 
+        Ausführung in entsprechender Brandschutz Qualität.  
+        
+        Auf die Raumakustik wird besonderen Wert gelegt. 
+        
+        Im Bereich von Deckeneinbauten sind die Löcher im Bereich von 10 cm zu verschließen. 
+        
+        Dämmschicht aus Mineralwolle nach akustischer Erfordernis. 
+        
+        Fabrikat: D127, Knauf Cleaneo® Akustik-Plattendecke
+        Lochbild 15/30 R oder 12/25 R
+        
+        
+        [end]
+        [Kurztext]Akustikdecke inkl. umlaufenden Fries, Fabr. Knauf Cleaneo Akustikdecke D127[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202020020[end]
+       [ME]m[end]
+       [EP]9,000[end]
+       [GB]90,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage für Wandanschluss mit Stufenwinkel als saubere Schattenfuge.
+        [end]
+        [Kurztext]Zulage für Wandanschluss mit Stufenwinklel und Schattenfuge[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202020030[end]
+       [ME]m[end]
+       [EP]40,000[end]
+       [GB]1280,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenschürze als senkrechten Randabschluß
+        der Decke. Von UK-Rohdecke bis UK-abgehängte Decke,
+        bestehend aus:
+        - 2x 12,5mm GKB
+        - Höhe bis ca. 40 cm
+        
+        einschl. erforderlicher Unterkonstruktion und
+        Befestigungsmittel.
+        [end]
+        [Kurztext]Deckenschürze, senkrecht, 2x12,5mm GKB, h=ca.40cm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202020040[end]
+       [ME]Stck[end]
+       [EP]16,000[end]
+       [GB]80,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen für Einbauleuchten/Lautsprecher etc: 
+        rund, DN bis 300 mm[end]
+        [Kurztext]Öffnungen für Leuchten/Lautsprecher o. ä., rund, bis Du=300mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202020050[end]
+       [ME]Stck[end]
+       [EP]16,000[end]
+       [GB]80,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen für Einbauleuchten/Lautsprecher etc: 
+        eckig, bis 300x300 mm[end]
+        [Kurztext]Öffnungen für Leuchten/Lautsprecher o. ä., eckig, bis 300x300mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      [Summe]7330,00[end]
+     #end[LVBereich]
+     #begin[LVBereich]
+      [OZ]020203[end]
+      [Bez]Trockenbauarbeiten - GK-Deckenschürze[end]
+      #begin[Position]
+       [OZ]0202030010[end]
+       [ME]m[end]
+       [EP]100,000[end]
+       [GB]500,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenschürze als senkrechten Randabschluß der Decke. 
+        Von UK-Rohdecke bis UK-abgehängte Decke,
+        bestehend aus:
+        - 2x 12,5mm GKB
+        - Höhe bis ca. 67 cm
+        - inkl. Unterkonstruktion und Befestigungsmittel[end]
+        [Kurztext]Deckenschürze,  h= ca.0,67 m (Alu-Blechdecke)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202030020[end]
+       [Bedarf]E[end]
+       [ME]m[end]
+       [EP]110,000[end]
+       [GB]110,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenschürze als senkrechten Randabschluß der Decke. 
+        Von UK-Rohdecke bis UK-abgehängte Decke,
+        bestehend aus:
+        - 2x 12,5mm GKB
+        - Höhe bis ca. 90 cm
+        - inkl. Unterkonstruktion und Befestigungsmittel[end]
+        [Kurztext]Deckenschürze,  h= ca.0,90 m (Akustikdecke)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202030040[end]
+       [ME]m[end]
+       [EP]150,000[end]
+       [GB]840,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenabkofferung mit waagrechten und senkkrechte Trockenbauverkleidung inkl. Randabschluß der Decke/Wand  und Eckausbildung
+        bestehend aus:
+        - 2x 12,5mm GKB
+        - Höhe bis ca. 60cm
+        - Breite bis ca. 150cm
+        - inkl. Unterkonstruktion und Befestigungsmittel[end]
+        [Kurztext]Deckenabkofferung, b=ca. 1,50m, h=ca. 0,60m[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0202030050[end]
+       [ME]m[end]
+       [EP]7,000[end]
+       [GB]53,90[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage für Außenecke
+        
+        bestehend aus:
+        Eckschutzschiene 31/31/0,4mm, verzinkt, wandhoch einbauen und verspachteln. Ausführung nach Herstellerangaben.[end]
+        [Kurztext]Zulage für Eckschutzprofil[end]
+       #end[Beschreibung]
+      #end[Position]
+      [Summe]1393,90[end]
+     #end[LVBereich]
+     [Summe]10318,90[end]
+    #end[LVBereich]
+    [Summe]128189,40[end]
+   #end[LVBereich]
+   #begin[LVBereich]
+    [OZ]03[end]
+    [Bez]Mietbereich Kone 1.OG[end]
+    #begin[LVBereich]
+     [OZ]0301[end]
+     [Bez]Trockenbauarbeiten - Wände[end]
+     #begin[LVBereich]
+      [OZ]030101[end]
+      [Bez]Trockenbauarbeiten - Wände[end]
+      #begin[Position]
+       [OZ]0301010010[end]
+       [ME]m2[end]
+       [EP]60,500[end]
+       [GB]13007,50[end]
+       #begin[Beschreibung]
+        [Langtext]GK-Metallständerwand nach DIN 4103 Teil 1, wie folgt:
+        
+        - Unterkonstruktion:    Metallständerwerk UW50 und CW50 im       Achsabstand von max. 62,5 cm und       Erfordernis.
+        - Beplankung:        beidseitig je 2x 12,5 mm GKB
+        - Dämmschicht:    WLG 040 d= 40 mm
+        - Wanddicke:       d=100 mm
+        - Einbauhöhe:       bis 3,30 m ab OKRF
+        - beidseitig    Q3 gespachtelt
+        - Brandschutz   F0
+        
+        Fabrikat: Knauf W 112 oder glw.
+        
+        Angeb. Fabrikat: ..................................[end]
+        [Kurztext]GK-Metallständerwand W112, F0, Q3, d= 100mm, 2x 12,5mm beidseitig GKB[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010080[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]78,000[end]
+       [GB]780,00[end]
+       #begin[Beschreibung]
+        [Langtext]GK-Installationswand nach DIN 4103 Teil 1, wie folgt:
+        
+        - Unterkonstruktion:    Metallständerwerk mind. 2x CW 50 im       Achsabstand von max. 62,5cm und       Erfordernis
+        - Beplankung:       beidseitig je 2x 12,5 mm GKB
+        - Dämmschicht:       WLG 040, d= 2 x 40mm
+        - Wanddicke:       bis d=400mm
+        - Einbauhöhe:        bis 3,30 m ab OKRF
+        - beidseitig    Q3 gespachtelt
+        - Brandschutz   F0
+        
+        Fabrikat: Knauf W 116 oder glw.
+        
+        Angeb. Fabrikat: ..................................
+        [end]
+        [Kurztext]GK-Installationswand W116, F0,  Q3, h=3,30m[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010090[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]128,000[end]
+       [GB]1280,00[end]
+       #begin[Beschreibung]
+        [Langtext]GK-Installationswand nach DIN 4103 Teil 1, wie folgt:
+        
+        - Unterkonstruktion:    Metallständerwerk mind. 2x CW 50 im       Achsabstand von max. 62,5cm und       Erfordernis
+        - Beplankung:       beidseitig je 2x 12,5 mm GKB
+        - Dämmschicht:       WLG 040, d= 2 x 40mm
+        - Wanddicke:       bis d=400mm
+        - Einbauhöhe:        bis 1,50 m ab OKRF Brüstungshöhe
+        - beidseitig    Q3 gespachtelt
+        - Brandschutz   F0
+        
+        Fabrikat: Knauf W 116 oder glw.
+        
+        Angeb. Fabrikat: ..................................[end]
+        [Kurztext]GK-Installationswand W116, F0,  Q3, h=1,50m[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010100[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]13,000[end]
+       [GB]130,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Spachtelung Oberflächengüte Q4
+        
+        Verspachtelung von Gipsplattenwänden mit erhöhten Anforderungen, nach Qualitätsstufe Q4 gemäß Merkblatt Nr. 2 des Bundesverbandes der Gipsindustrie e.V.,
+        aufbauend auf Standardverspachtelung Q3, Ebenheitstoleranzen mit erhöhten Anforderungen nach DIN 18202, Tab. 3, Zeile 7,* beidseitig,
+        max. Wandhöhe: 3,30 m,
+        Ausführung erfolgt unter Verwendung von Feinspachtelmassen nach DIN EN 13963 Typ 3A, vollflächig, Schichtdicke 2 mm, Oberfläche glätten.
+        Untergrund: Gipsplatten, Q3 - Verspachtelung
+        Lichtverhältnisse: direkt / diffus
+        Weitere Beschichtung/ Wandbekleidung:
+        [end]
+        [Kurztext]Zulage Spachtelung Q4[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010110[end]
+       [Bedarf]E[end]
+       [ME]m[end]
+       [EP]50,000[end]
+       [GB]50,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage zur Vorposition für die horizontale Beplankung 
+        mit 2 x 12,5 mm GKB-Bauplatten der vg. Vorsatzschale 
+        incl. Verspachtelung nach Herstellervorgaben als Zulage.[end]
+        [Kurztext]Zulage für horizontale Beplankung Vorsatzschale, b=250mm, 2x 12,5 mm einseitig GKB[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010130[end]
+       [Bedarf]E[end]
+       [ME]m[end]
+       [EP]21,000[end]
+       [GB]210,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenanschluß gleitend, Deckendurchbiegung bis ca. 20mm. 
+        Plattenstreifen in entsprechender Breite und Stärke in Verbindung mit  Anschlußprofil über Anschlußdichtung befestigen. Ständerprofile undBeplankung um das Durchbiegungsmaß verkürzt einbauen, Plattenkanten 
+        scharfkantig mittels Alu-Kantenschutzprofil an der freien Kante der äußeren Beplankungslage befestigen und flächeneben einspachteln. 
+        Verschraubung mit Schnellbauschrauben jedoch nur in Ständerprofilen, Schraubabstände gemäß Herstellervorschriften. 
+        Der Bodenanschluss der Wand muss auch die Durchbiegung der Decke bis min. 20mm aufnehmen können, keine Verschraubung von Ständerprofile und Gipskartonplatten an das UW-Profil.
+        Wandstärken: 100 bis 150mm
+        [end]
+        [Kurztext]Gleitenden Deckenanschluss[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010140[end]
+       [Bedarf]E[end]
+       [ME]m[end]
+       [EP]20,500[end]
+       [GB]20,50[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Freistehendes Wandende
+        
+        bestehend aus:
+        Stirnseite mit CW-Ständerprofil bewehren und mit 1x12,5 mm dicken Plattenstreifen beplanken, Eckschutzschienen 31/31/0,4 mm, verzinkt, wandhoch einbauen und verspachteln.
+        Ausführung nach Herstellerangaben.
+        [end]
+        [Kurztext]Zulage Freistehende Wandenden[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010150[end]
+       [Bedarf]E[end]
+       [ME]m[end]
+       [EP]7,000[end]
+       [GB]7,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Außenecke
+        
+        bestehend aus:
+        Eckschutzschiene 31/31/0,4mm, verzinkt, wandhoch einbauen und verspachteln. Ausführung nach Herstellerangaben.[end]
+        [Kurztext]Zulage Außenecken[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010160[end]
+       [Bedarf]E[end]
+       [ME]m[end]
+       [EP]7,000[end]
+       [GB]7,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Übergangsprofil
+        
+        bestehend aus:
+        Eckschutzprofil Göppinger 90° als Dehnfugenprofil. Das Profil, besteht aus einem mit Spezialpapier ummantelten Metallwinkel. Profil verzinkt, wandhoch einbauen und verspachteln. Ausführung nach Herstellerangaben. 
+        [end]
+        [Kurztext]Zulage Übergangsprofil[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010180[end]
+       [ME]Stck[end]
+       [EP]250,000[end]
+       [GB]2500,00[end]
+       #begin[Beschreibung]
+        [Langtext]Wandverjüngungen mit einer Länge von 312,5 mm,
+        Dicke der Wandverjüngung 47 mm
+        Bewertetes Schalldämm-Maß Rw,R = 45 dB
+        
+        Anschluss an die Fassade mit 2x L-Winkel 13/30/08, Befesti-
+        gung mit bauaufsichtlich zugelassenen Befestigungsmitteln. Anschluss an die Ständerwand mit 2x L-Winkel 13/30/08,
+        
+        Dämmschicht aus Mineralwolle nach DIN EN 13162, einlagig, Dicke 20 mm, dicht stoßen, abrutschsicher verlegen, mit Akustik-Dämmplatte
+        
+        Beplankung aus einer Lage Silentboard 12,5 mm, an beiden Seiten der Wandverjüngung, Verschraubung mit Diamant-Schrauben, Verarbeitung gemäß DIN 18181.
+        
+        Detail gem. Leitdetail 
+        inkl. PU-Versieglung[end]
+        [Kurztext]Anschluss Fassade Außenwand Fassadenschwert[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010190[end]
+       [ME]Stck[end]
+       [EP]71,500[end]
+       [GB]143,00[end]
+       #begin[Beschreibung]
+        [Langtext]Türöffnung herstellen, 1-flg.
+        
+        incl. Sturzprofil, seitlich raumhoch verstärken, mit Metallständer-
+        profilen UA/CW 75, einschl. Boden- und Deckenanschluss mit Türpfostensteckwinkel, befestigen mit Winkeln, Dübeln und Schrauben.
+        
+        Baurichtmaße: b= 760-1.010mm / h= bis 2.135mm
+        Wanddicke: d= 100-125mm
+        Wandart: W112 oglw.
+        
+        [end]
+        [Kurztext]Türöffnung 1- flg., B/H 760 - 1010/2135 mm, WD 100 - 125 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010200[end]
+       [ME]Stck[end]
+       [EP]91,500[end]
+       [GB]457,50[end]
+       #begin[Beschreibung]
+        [Langtext]Türöffnung herstellen, 1-flg.
+        
+        incl. Sturzprofil, seitlich raumhoch verstärken, mit Metallständer-
+        profilen UA/CW 75, einschl. Boden- und Deckenanschluss mit Türpfostensteckwinkel, befestigen mit Winkeln, Dübeln und Schrauben.
+        
+        Baurichtmaße: b= 1.135-1.510mm / h= bis 2.135mm
+        Wanddicke: d= 100-125mm
+        Wandart: W112 oglw.
+        
+        [end]
+        [Kurztext]Türöffnung 1- flg. B/H 1135 - 1510/2135 mm, WD 100 - 125mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010210[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]190,000[end]
+       [GB]190,00[end]
+       #begin[Beschreibung]
+        [Langtext]Türöffnung herstellen, 2-flg.
+        
+        incl. Sturzprofil, seitlich raumhoch verstärken, mit Metallständer-
+        profilen UA/CW 75, einschl. Boden- und Deckenanschluss mit Türpfostensteckwinkel, befestigen mit Winkeln, Dübeln und Schrauben.
+        
+        Baurichtmaße: b= 2.010 mm / h= bis 2.135mm
+        Wanddicke: d= 100-125mm
+        Wandart: W112 oglw.[end]
+        [Kurztext]Türöffnung 2- flg. B/H 2010/2135 mm, WD 100 - 125mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010215[end]
+       [ME]Stck[end]
+       [EP]240,000[end]
+       [GB]1680,00[end]
+       #begin[Beschreibung]
+        [Langtext]Position wie vor, jedoch mit Schwerlastprofil - C50
+        Schwerlastprofil für Metallständerwände UW 50,
+        Wandhöhe: 3,30 m
+        (maximale Wandhöhe: 4,0 m)
+        
+        aus Stahlblechprofil C50/50/2,0, verzinkt, befestigt an Rohfußboden und Decke mittels Fußwinkel/Gleitwinkel mit Halteprofil.
+        Systembefestigung mit 1x Bolzenanker M8x76, U-Scheibe
+        Maximal zulässiges Türgewicht siehe Montageanleitung Schwerlastprofil K691-A01.de
+        
+        Bei doppelflügeligen Türen, Türsturzprofil mit Schwerlastprofil herstellen.
+        Verbindung mit geeigneten Winkeln und Befestigungsmitteln.
+        
+        Ausführung gemäß Knauf Montageanleitung K691-A01.de
+        Erzeugnis: Knauf Schwerlastprofil C50 o. gleichwertig
+        [end]
+        [Kurztext]Zulage zur eigentlichen Türöffnung (Türauschnitte verstärkt)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010220[end]
+       [ME]m[end]
+       [EP]25,000[end]
+       [GB]50,00[end]
+       #begin[Beschreibung]
+        [Langtext]Universal-Traversen aus Mehrschichtenholzplatten d = 23 mm und seitlichen Stahlblech-Laschen d = 0,6 mm, mit jeweils 3 vorgebohrten Löchern zur Befestigung an den CW-Profilen.
+        - für Lasten bis 1,5 kN/m Wandlänge
+        - h=ca. 3,00m
+        
+        Fabrikat: Knauf Universal-Traverse W 234 o. glw.
+        [end]
+        [Kurztext]Universal-Traverse für wandhängende Lasten[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010250[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]12,000[end]
+       [GB]12,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte herstellen, Abmessungen bis 15 cm SL[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010260[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]16,000[end]
+       [GB]16,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte herstellen, Abmessungen bis 30 cm SL[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010270[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]18,000[end]
+       [GB]18,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte schließen, Abmessungen bis 15 cm SL[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010280[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]24,000[end]
+       [GB]24,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte schließen, Abmessungen bis 30 cm SL[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010290[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]7,000[end]
+       [GB]7,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte herstellen, Durchmesser bis 75 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010300[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]9,000[end]
+       [GB]9,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte herstellen, Durchmesser bis 150 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010310[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]9,000[end]
+       [GB]9,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte schließen, Durchmesser bis 75 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010320[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]12,000[end]
+       [GB]12,00[end]
+       #begin[Beschreibung]
+        [Kurztext]Ausschnitte schließen, Durchmesser bis 150 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0301010330[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]60,000[end]
+       [GB]300,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage für Ausschitte in Deckenabschottung
+        
+        -Ausschnitt herstellen für Überströmelemente
+        -Format b x h = ca. 100x20cm
+        -inkl. erforderlicher Auswechselung der UK
+        
+        [end]
+        [Kurztext]Zulage für Ausschnitte in Deckenabschottung, bxh = 100 x 20cm[end]
+       #end[Beschreibung]
+      #end[Position]
+      [Summe]17838,00[end]
+     #end[LVBereich]
+     [Summe]17838,00[end]
+    #end[LVBereich]
+    #begin[LVBereich]
+     [OZ]0302[end]
+     [Bez]Trockenbauarbeiten - Decken[end]
+     #begin[LVBereich]
+      [OZ]030201[end]
+      [Bez]Trockenbauarbeiten - GK-Decke[end]
+      #begin[Position]
+       [OZ]0302010010[end]
+       [ME]m2[end]
+       [EP]75,000[end]
+       [GB]75,00[end]
+       #begin[Beschreibung]
+        [Langtext]Abhangdecke aus Gipskartonplatten nach DIN 18168-1.
+        1-lagig ohne Brandschutzanforderung.
+        Oberfläche glatt gespachtelt für Anstrich.
+        Oberfläche in Qualitätsstufe Q2.
+        Höhe: 3,50 m
+        Abhanghöhe: bis 40 cm
+        
+        Erzeugnis: Knauf System D-112, Typ GKB o. glw.
+        
+        Gew. Fabrikat:........................................
+        [end]
+        [Kurztext]D112 Unterdecke, F0, Q2, GKB 1x 12,5 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302010020[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]16,000[end]
+       [GB]16,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112:
+        2-lagige Beplankung mit GKB[end]
+        [Kurztext]Zulage 2-lagige Beplankung[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302010030[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]2,500[end]
+       [GB]2,50[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112
+        Beplankung mit 1 x 12,5 mm GKB-I Bauplatten in Feucht- und Naßräumen inkl. Verspachtelung und Nachimprägnierung der Schnittkanten nach Herstellervorgaben.
+        [end]
+        [Kurztext]Zulage Bekleidung GKB-I, einseitig, 1x12,5mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302010040[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]5,000[end]
+       [GB]5,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112
+        Beplankung mit 2 x 12,5 mm GKB-I Bauplatten in Feucht- und Naßräumen inkl. Verspachtelung und Nachimprägnierung der Schnittkanten nach Herstellervorgaben.[end]
+        [Kurztext]Zulage Bekleidung GKB-I, einseitig, 2x12,5mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302010050[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]4,000[end]
+       [GB]4,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112
+        Spachteln und Schleifen der Gipskartonoberfläche in Qualitätsstufe Q3[end]
+        [Kurztext]Zulage Verspachtelung Oberfläche  in Q3[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302010060[end]
+       [ME]m[end]
+       [EP]6,000[end]
+       [GB]120,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Wandanschluss mit Winkelprofil für saubere Ausbildung einer Schattenfuge.[end]
+        [Kurztext]Wandanschluss mit Winkelprofil[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302010070[end]
+       [ME]m[end]
+       [EP]7,000[end]
+       [GB]140,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Deckenabschluss mit Kantenschutzprofil
+        [end]
+        [Kurztext]Kantenschutzprofil[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302010080[end]
+       [ME]Stck[end]
+       [EP]16,000[end]
+       [GB]160,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen herstellen für Einbauleuchten/Lautsprecher etc: 
+        eckig, Kantenlänge bis 300 x 300mm[end]
+        [Kurztext]Öffnung herstellen, Abmessung bis 30cm SL (Beleuchtung)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302010090[end]
+       [ME]Stck[end]
+       [EP]16,000[end]
+       [GB]160,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen herstellen für Einbauleuchten/Lautsprecher etc: 
+        rund, Du bis 300mm[end]
+        [Kurztext]Öffnung herstellen, Durchmesser  bis Du =30cm (Beleuchtung)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302010100[end]
+       [ME]Stck[end]
+       [EP]51,000[end]
+       [GB]255,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 40/40 cm, System Knauf Alu-Top, mit GK-Füllung, ohne Brandschutzanforderung[end]
+        [Kurztext]Revisionsklappe REVO 12,5 40x40 (Alutop)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302010110[end]
+       [ME]Stck[end]
+       [EP]62,000[end]
+       [GB]310,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 60/60 cm, System Knauf Alu-Top, mit GK-Füllung, ohne Brandschutzanforderung[end]
+        [Kurztext]Revisionsklappe REVO 12,5 60x60 (Alutop)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302010120[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]215,000[end]
+       [GB]215,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 40/40 cm, System Knauf Alu-Top, mit GK-Füllung, Brandschutzanforderung F90[end]
+        [Kurztext]Revisionsklappe, REVO 12,5 40x40 (Alutop), F90[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302010130[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]265,000[end]
+       [GB]265,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 60/60 cm, System Knauf Alu-Top, mit GK-Füllung, Brandschutzanforderung F90[end]
+        [Kurztext]Revisionsklappe REVO 12,5 60x60 (Alutop), F90[end]
+       #end[Beschreibung]
+      #end[Position]
+      [Summe]1220,00[end]
+     #end[LVBereich]
+     #begin[LVBereich]
+      [OZ]030202[end]
+      [Bez]Trockenbauarbeiten - Akustikdecke[end]
+      #begin[Position]
+       [OZ]0302020010[end]
+       [ME]m2[end]
+       [EP]100,000[end]
+       [GB]5800,00[end]
+       #begin[Beschreibung]
+        [Langtext]Alle Unterkonstruktionsteile aus verzinktem Material.  
+        Anschlüsse mit Stufenwinkel als saubere Schattenfuge. 
+        Decklage aus geschlitzten Gipsplatten, einlagig, 12,5 mm stark, Blockschlitzung, umlaufend 12,5 cm Fries, Rückseite kaschiert mit Akustikvlies, Fugen gespachtelt, Oberfläche gespachtelt und mit Malervlies beklebt. Deckender Anstrich in Dispersionsfarbe hell nach Wahl des AG. Wo erforderlich, 
+        Ausführung in entsprechender Brandschutz Qualität.  
+        
+        Auf die Raumakustik wird besonderen Wert gelegt. 
+        
+        Im Bereich von Deckeneinbauten sind die Löcher im Bereich von 10 cm zu verschließen. 
+        
+        Dämmschicht aus Mineralwolle nach akustischer Erfordernis. 
+        
+        Fabrikat: D127, Knauf Cleaneo® Akustik-Plattendecke
+        Lochbild 15/30 R oder 12/25 R
+        
+        
+        [end]
+        [Kurztext]Akustikdecke inkl. umlaufenden Fries, Fabr. Knauf Cleaneo Akustikdecke D127[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302020020[end]
+       [ME]m[end]
+       [EP]9,000[end]
+       [GB]90,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage für Wandanschluss mit Stufenwinkel als saubere Schattenfuge.
+        [end]
+        [Kurztext]Zulage für Wandanschluss mit Stufenwinklel und Schattenfuge[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302020030[end]
+       [ME]m[end]
+       [EP]40,000[end]
+       [GB]1280,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenschürze als senkrechten Randabschluß
+        der Decke. Von UK-Rohdecke bis UK-abgehängte Decke,
+        bestehend aus:
+        - 2x 12,5mm GKB
+        - Höhe bis ca. 40 cm
+        
+        einschl. erforderlicher Unterkonstruktion und
+        Befestigungsmittel.
+        [end]
+        [Kurztext]Deckenschürze, senkrecht, 2x12,5mm GKB, h=ca.40cm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302020040[end]
+       [ME]Stck[end]
+       [EP]16,000[end]
+       [GB]80,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen für Einbauleuchten/Lautsprecher etc: 
+        rund, DN bis 300 mm[end]
+        [Kurztext]Öffnungen für Leuchten/Lautsprecher o. ä., rund, bis Du=300mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302020050[end]
+       [ME]Stck[end]
+       [EP]16,000[end]
+       [GB]80,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen für Einbauleuchten/Lautsprecher etc: 
+        eckig, bis 300x300 mm[end]
+        [Kurztext]Öffnungen für Leuchten/Lautsprecher o. ä., eckig, bis 300x300mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      [Summe]7330,00[end]
+     #end[LVBereich]
+     #begin[LVBereich]
+      [OZ]030203[end]
+      [Bez]Trockenbauarbeiten - GK-Deckenschürze[end]
+      #begin[Position]
+       [OZ]0302030010[end]
+       [ME]m[end]
+       [EP]100,000[end]
+       [GB]500,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenschürze als senkrechten Randabschluß der Decke. 
+        Von UK-Rohdecke bis UK-abgehängte Decke,
+        bestehend aus:
+        - 2x 12,5mm GKB
+        - Höhe bis ca. 67 cm
+        - inkl. Unterkonstruktion und Befestigungsmittel[end]
+        [Kurztext]Deckenschürze,  h= ca.0,67 m (Alu-Blechdecke)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302030020[end]
+       [Bedarf]E[end]
+       [ME]m[end]
+       [EP]110,000[end]
+       [GB]110,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenschürze als senkrechten Randabschluß der Decke. 
+        Von UK-Rohdecke bis UK-abgehängte Decke,
+        bestehend aus:
+        - 2x 12,5mm GKB
+        - Höhe bis ca. 90 cm
+        - inkl. Unterkonstruktion und Befestigungsmittel[end]
+        [Kurztext]Deckenschürze,  h= ca.0,90 m (Akustikdecke)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302030040[end]
+       [ME]m[end]
+       [EP]150,000[end]
+       [GB]840,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenabkofferung mit waagrechten und senkkrechte Trockenbauverkleidung inkl. Randabschluß der Decke/Wand  und Eckausbildung
+        bestehend aus:
+        - 2x 12,5mm GKB
+        - Höhe bis ca. 60cm
+        - Breite bis ca. 150cm
+        - inkl. Unterkonstruktion und Befestigungsmittel[end]
+        [Kurztext]Deckenabkofferung, b=ca. 1,50m, h=ca. 0,60m[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0302030050[end]
+       [ME]m[end]
+       [EP]7,000[end]
+       [GB]53,90[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage für Außenecke
+        
+        bestehend aus:
+        Eckschutzschiene 31/31/0,4mm, verzinkt, wandhoch einbauen und verspachteln. Ausführung nach Herstellerangaben.[end]
+        [Kurztext]Zulage für Eckschutzprofil[end]
+       #end[Beschreibung]
+      #end[Position]
+      [Summe]1393,90[end]
+     #end[LVBereich]
+     [Summe]9943,90[end]
+    #end[LVBereich]
+    [Summe]27781,90[end]
+   #end[LVBereich]
+   #begin[LVBereich]
+    [OZ]04[end]
+    [Bez]Musterbüro 5.OG[end]
+    #begin[LVBereich]
+     [OZ]0401[end]
+     [Bez]Trockenbauarbeiten - Wände[end]
+     #begin[Position]
+      [OZ]0401  0020[end]
+      [ME]m2[end]
+      [EP]62,500[end]
+      [GB]12500,00[end]
+      #begin[Beschreibung]
+       [Langtext]GK-Metallständerwand nach DIN 4103 Teil 1, wie folgt:
+       
+       - Unterkonstruktion:    Metallständerwerk UW50 und CW50 im       Achsabstand von max. 62,5 cm und       Erfordernis.
+       - Beplankung:        beidseitig je 2x 12,5 mm GKB
+       - Dämmschicht:    WLG 040 d= 40 mm
+       - Wanddicke:       d=125 mm
+       - Einbauhöhe:       bis 3,30 m ab OKRF
+       - beidseitig    Q3 gespachtelt
+       - Brandschutz   F0
+       
+       Fabrikat: Knauf W 112 oder glw.
+       
+       Angeb. Fabrikat: ..................................[end]
+       [Kurztext]GK-Metallständerwand W112, F0, Q3, d= 125mm, 2x 12,5mm beidseitig GKB[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0100[end]
+      [ME]m2[end]
+      [EP]80,000[end]
+      [GB]1200,00[end]
+      #begin[Beschreibung]
+       [Langtext]GK-Installationswand nach DIN 4103 Teil 1, wie folgt:
+       
+       - Unterkonstruktion:    Metallständerwerk mind. 2x CW 50 im       Achsabstand von max. 62,5cm und       Erfordernis
+       - Beplankung:       beidseitig je 2x 12,5 mm GKB
+       - Dämmschicht:       WLG 040, d= 2 x 40mm
+       - Wanddicke:       bis d=400mm
+       - Einbauhöhe:        bis 3,30 m ab OKRF
+       - beidseitig    Q3 gespachtelt
+       - Brandschutz   F0
+       
+       Fabrikat: Knauf W 116 oder glw.
+       
+       Angeb. Fabrikat: ..................................[end]
+       [Kurztext]GK-Installationswand W116, F0,  Q3, h=3,30m[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0110[end]
+      [Bedarf]E[end]
+      [ME]m[end]
+      [EP]50,000[end]
+      [GB]50,00[end]
+      #begin[Beschreibung]
+       [Langtext]Zulage zur Vorposition für die horizontale Beplankung 
+       mit 2 x 12,5 mm GKB-Bauplatten der vg. Vorsatzschale 
+       incl. Verspachtelung nach Herstellervorgaben als Zulage.[end]
+       [Kurztext]Zulage für horizontale Beplankung Vorsatzschale, b=250mm, 2x 12,5 mm einseitig GKB[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0120[end]
+      [Bedarf]E[end]
+      [ME]m2[end]
+      [EP]5,000[end]
+      [GB]5,00[end]
+      #begin[Beschreibung]
+       [Langtext]Zulage zur Vorposition für das einseitige Beplanken mit 2 x 12,5 mm GKB-I Bauplatten der vg. Ständerwände in Feucht und Naßräumen incl. Verspachtelung und Nachimprägnierung der Schnittkanten nach Herstellervorgaben als Zulage.[end]
+       [Kurztext]Zulage für Beplankung GKB-I, 2x 12,5 mm, einseitig[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0130[end]
+      [ME]m[end]
+      [EP]25,000[end]
+      [GB]250,00[end]
+      #begin[Beschreibung]
+       [Langtext]Deckenanschluß gleitend, Deckendurchbiegung bis ca. 20mm. 
+       Plattenstreifen in entsprechender Breite und Stärke in Verbindung mit  Anschlußprofil über Anschlußdichtung befestigen. Ständerprofile undBeplankung um das Durchbiegungsmaß verkürzt einbauen, Plattenkanten 
+       scharfkantig mittels Alu-Kantenschutzprofil an der freien Kante der äußeren Beplankungslage befestigen und flächeneben einspachteln. 
+       Verschraubung mit Schnellbauschrauben jedoch nur in Ständerprofilen, Schraubabstände gemäß Herstellervorschriften. 
+       Der Bodenanschluss der Wand muss auch die Durchbiegung der Decke bis min. 20mm aufnehmen können, keine Verschraubung von Ständerprofile und Gipskartonplatten an das UW-Profil.
+       Wandstärken: 100 bis 150mm
+       [end]
+       [Kurztext]Gleitenden Deckenanschluss[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0140[end]
+      [Bedarf]E[end]
+      [ME]m[end]
+      [EP]25,000[end]
+      [GB]25,00[end]
+      #begin[Beschreibung]
+       [Langtext]Zulage Freistehendes Wandende
+       
+       bestehend aus:
+       Stirnseite mit CW-Ständerprofil bewehren und mit 1x12,5 mm dicken Plattenstreifen beplanken, Eckschutzschienen 31/31/0,4 mm, verzinkt, wandhoch einbauen und verspachteln.
+       Ausführung nach Herstellerangaben.
+       [end]
+       [Kurztext]Zulage Freistehende Wandenden[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0150[end]
+      [Bedarf]E[end]
+      [ME]m[end]
+      [EP]8,000[end]
+      [GB]8,00[end]
+      #begin[Beschreibung]
+       [Langtext]Zulage Außenecke
+       
+       bestehend aus:
+       Eckschutzschiene 31/31/0,4mm, verzinkt, wandhoch einbauen und verspachteln. Ausführung nach Herstellerangaben.[end]
+       [Kurztext]Zulage Außenecken[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0160[end]
+      [Bedarf]E[end]
+      [ME]m[end]
+      [EP]8,000[end]
+      [GB]8,00[end]
+      #begin[Beschreibung]
+       [Langtext]Zulage Übergangsprofil
+       
+       bestehend aus:
+       Eckschutzprofil Göppinger 90° als Dehnfugenprofil. Das Profil, besteht aus einem mit Spezialpapier ummantelten Metallwinkel. Profil verzinkt, wandhoch einbauen und verspachteln. Ausführung nach Herstellerangaben. 
+       [end]
+       [Kurztext]Zulage Übergangsprofil[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0180[end]
+      [ME]Stck[end]
+      [EP]270,000[end]
+      [GB]1620,00[end]
+      #begin[Beschreibung]
+       [Langtext]Wandverjüngungen mit einer Länge von 312,5 mm,
+       Dicke der Wandverjüngung 47 mm
+       Bewertetes Schalldämm-Maß Rw,R = 45 dB
+       
+       Anschluss an die Fassade mit 2x L-Winkel 13/30/08, Befesti-
+       gung mit bauaufsichtlich zugelassenen Befestigungsmitteln. Anschluss an die Ständerwand mit 2x L-Winkel 13/30/08,
+       
+       Dämmschicht aus Mineralwolle nach DIN EN 13162, einlagig, Dicke 20 mm, dicht stoßen, abrutschsicher verlegen, mit Akustik-Dämmplatte
+       
+       Beplankung aus einer Lage Silentboard 12,5 mm, an beiden Seiten der Wandverjüngung, Verschraubung mit Diamant-Schrauben, Verarbeitung gemäß DIN 18181.
+       
+       Detail gem. Leitdetail 
+       inkl. PU-Versieglung
+       [end]
+       [Kurztext]Anschluss Fassade Außenwand Fassadenschwert[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0190[end]
+      [Bedarf]E[end]
+      [ME]Stck[end]
+      [EP]75,000[end]
+      [GB]75,00[end]
+      #begin[Beschreibung]
+       [Langtext]Türöffnung herstellen, 1-flg.
+       
+       incl. Sturzprofil, seitlich raumhoch verstärken, mit Metallständer-
+       profilen UA/CW 75, einschl. Boden- und Deckenanschluss mit Türpfostensteckwinkel, befestigen mit Winkeln, Dübeln und Schrauben.
+       
+       Baurichtmaße: b= 760-1.010mm / h= bis 2.135mm
+       Wanddicke: d= 100-125mm
+       Wandart: W112 oglw.
+       
+       [end]
+       [Kurztext]Türöffnung 1- flg., B/H 760 - 1010/2135 mm, WD 100 - 125 mm[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0200[end]
+      [ME]Stck[end]
+      [EP]95,000[end]
+      [GB]285,00[end]
+      #begin[Beschreibung]
+       [Langtext]Türöffnung herstellen, 1-flg.
+       
+       incl. Sturzprofil, seitlich raumhoch verstärken, mit Metallständer-
+       profilen UA/CW 75, einschl. Boden- und Deckenanschluss mit Türpfostensteckwinkel, befestigen mit Winkeln, Dübeln und Schrauben.
+       
+       Baurichtmaße: b= 1.135-1.510mm / h= bis 2.135mm
+       Wanddicke: d= 100-125mm
+       Wandart: W112 oglw.
+       
+       [end]
+       [Kurztext]Türöffnung 1- flg. B/H 1135 - 1510/2135 mm, WD 100 - 125mm[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0210[end]
+      [Bedarf]E[end]
+      [ME]Stck[end]
+      [EP]200,000[end]
+      [GB]200,00[end]
+      #begin[Beschreibung]
+       [Langtext]Türöffnung herstellen, 2-flg.
+       
+       incl. Sturzprofil, seitlich raumhoch verstärken, mit Metallständer-
+       profilen UA/CW 75, einschl. Boden- und Deckenanschluss mit Türpfostensteckwinkel, befestigen mit Winkeln, Dübeln und Schrauben.
+       
+       Baurichtmaße: b= 2.010 mm / h= bis 2.135mm
+       Wanddicke: d= 100-125mm
+       Wandart: W112 oglw.[end]
+       [Kurztext]Türöffnung 2- flg. B/H 2010/2135 mm, WD 100 - 125mm[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0220[end]
+      [Bedarf]E[end]
+      [ME]m[end]
+      [EP]25,000[end]
+      [GB]50,00[end]
+      #begin[Beschreibung]
+       [Langtext]Universal-Traversen aus Mehrschichtenholzplatten d = 23 mm und seitlichen Stahlblech-Laschen d = 0,6 mm, mit jeweils 3 vorgebohrten Löchern zur Befestigung an den CW-Profilen.
+       - für Lasten bis 1,5 kN/m Wandlänge
+       - h=ca. 3,00m
+       
+       Fabrikat: Knauf Universal-Traverse W 234 o. glw.
+       [end]
+       [Kurztext]Universal-Traverse für wandhängende Lasten[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0250[end]
+      [Bedarf]E[end]
+      [ME]Stck[end]
+      [EP]15,000[end]
+      [GB]15,00[end]
+      #begin[Beschreibung]
+       [Kurztext]Ausschnitte herstellen, Abmessungen bis 15 cm SL[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0260[end]
+      [Bedarf]E[end]
+      [ME]Stck[end]
+      [EP]20,000[end]
+      [GB]20,00[end]
+      #begin[Beschreibung]
+       [Kurztext]Ausschnitte herstellen, Abmessungen bis 30 cm SL[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0270[end]
+      [Bedarf]E[end]
+      [ME]Stck[end]
+      [EP]16,000[end]
+      [GB]16,00[end]
+      #begin[Beschreibung]
+       [Kurztext]Ausschnitte schließen, Abmessungen bis 15 cm SL[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0280[end]
+      [Bedarf]E[end]
+      [ME]Stck[end]
+      [EP]24,000[end]
+      [GB]24,00[end]
+      #begin[Beschreibung]
+       [Kurztext]Ausschnitte schließen, Abmessungen bis 30 cm SL[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0290[end]
+      [Bedarf]E[end]
+      [ME]Stck[end]
+      [EP]10,000[end]
+      [GB]10,00[end]
+      #begin[Beschreibung]
+       [Kurztext]Ausschnitte herstellen, Durchmesser bis 75 mm[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0300[end]
+      [Bedarf]E[end]
+      [ME]Stck[end]
+      [EP]10,000[end]
+      [GB]10,00[end]
+      #begin[Beschreibung]
+       [Kurztext]Ausschnitte herstellen, Durchmesser bis 150 mm[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0310[end]
+      [Bedarf]E[end]
+      [ME]Stck[end]
+      [EP]15,000[end]
+      [GB]15,00[end]
+      #begin[Beschreibung]
+       [Kurztext]Ausschnitte schließen, Durchmesser bis 75 mm[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0320[end]
+      [Bedarf]E[end]
+      [ME]Stck[end]
+      [EP]15,000[end]
+      [GB]15,00[end]
+      #begin[Beschreibung]
+       [Kurztext]Ausschnitte schließen, Durchmesser bis 150 mm[end]
+      #end[Beschreibung]
+     #end[Position]
+     #begin[Position]
+      [OZ]0401  0330[end]
+      [ME]Stck[end]
+      [EP]65,000[end]
+      [GB]325,00[end]
+      #begin[Beschreibung]
+       [Langtext]Zulage für Ausschitte in Deckenabschottung
+       
+       -Ausschnitt herstellen für Überströmelemente
+       -Format b x h = ca. 100x20cm
+       -inkl. erforderlicher Auswechselung der UK
+       
+       [end]
+       [Kurztext]Zulage für Ausschnitte in Deckenabschottung, bxh = 100 x 20cm[end]
+      #end[Beschreibung]
+     #end[Position]
+     [Summe]16180,00[end]
+    #end[LVBereich]
+    #begin[LVBereich]
+     [OZ]0402[end]
+     [Bez]Trockenbauarbeiten - Decken[end]
+     #begin[LVBereich]
+      [OZ]040201[end]
+      [Bez]Trockenbauarbeiten - GK-Decke[end]
+      #begin[Position]
+       [OZ]0402010010[end]
+       [ME]m2[end]
+       [EP]77,500[end]
+       [GB]2170,00[end]
+       #begin[Beschreibung]
+        [Langtext]Abhangdecke aus Gipskartonplatten nach DIN 18168-1.
+        1-lagig ohne Brandschutzanforderung.
+        Oberfläche glatt gespachtelt für Anstrich.
+        Oberfläche in Qualitätsstufe Q2.
+        
+        Abhanghöhe: bis 40 cm
+        
+        Erzeugnis: Knauf System D-112, Typ GKB o. glw.
+        
+        Gew. Fabrikat:........................................
+        [end]
+        [Kurztext]D112 Unterdecke, F0, Q2, GKB 1x 12,5 mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402010020[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]16,500[end]
+       [GB]16,50[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112:
+        2-lagige Beplankung mit GKB[end]
+        [Kurztext]Zulage 2-lagige Beplankung[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402010030[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]2,500[end]
+       [GB]2,50[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112
+        Beplankung mit 1 x 12,5 mm GKB-I Bauplatten in Feucht- und Naßräumen inkl. Verspachtelung und Nachimprägnierung der Schnittkanten nach Herstellervorgaben.
+        [end]
+        [Kurztext]Zulage Bekleidung GKB-I, einseitig, 1x12,5mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402010040[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]5,000[end]
+       [GB]5,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112
+        Beplankung mit 2 x 12,5 mm GKB-I Bauplatten in Feucht- und Naßräumen inkl. Verspachtelung und Nachimprägnierung der Schnittkanten nach Herstellervorgaben.[end]
+        [Kurztext]Zulage Bekleidung GKB-I, einseitig, 2x12,5mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402010050[end]
+       [Bedarf]E[end]
+       [ME]m2[end]
+       [EP]4,500[end]
+       [GB]4,50[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Trockenbaudecke D112
+        Spachteln und Schleifen der Gipskartonoberfläche in Qualitätsstufe Q3[end]
+        [Kurztext]Zulage Verspachtelung Oberfläche  in Q3[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402010060[end]
+       [ME]m[end]
+       [EP]6,000[end]
+       [GB]30,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Wandanschluss mit Winkelprofil für saubere Ausbildung einer Schattenfuge.[end]
+        [Kurztext]Wandanschluss mit Winkelprofil[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402010070[end]
+       [ME]m[end]
+       [EP]7,000[end]
+       [GB]35,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage Deckenabschluss mit Kantenschutzprofil
+        [end]
+        [Kurztext]Kantenschutzprofil[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402010080[end]
+       [ME]Stck[end]
+       [EP]20,000[end]
+       [GB]200,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen herstellen für Einbauleuchten/Lautsprecher etc: 
+        eckig, Kantenlänge bis 300 x 300mm[end]
+        [Kurztext]Öffnung herstellen, Abmessung bis 30cm SL (Beleuchtung)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402010090[end]
+       [ME]Stck[end]
+       [EP]20,000[end]
+       [GB]200,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen herstellen für Einbauleuchten/Lautsprecher etc: 
+        rund, Du bis 300mm[end]
+        [Kurztext]Öffnung herstellen, Durchmesser  bis Du =30cm (Beleuchtung)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402010100[end]
+       [ME]Stck[end]
+       [EP]52,000[end]
+       [GB]260,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 40/40 cm, System Knauf Alu-Top, mit GK-Füllung, ohne Brandschutzanforderung[end]
+        [Kurztext]Revisionsklappe REVO 12,5 40x40 (Alutop)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402010110[end]
+       [ME]Stck[end]
+       [EP]63,000[end]
+       [GB]315,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 60/60 cm, System Knauf Alu-Top, mit GK-Füllung, ohne Brandschutzanforderung[end]
+        [Kurztext]Revisionsklappe REVO 12,5 60x60 (Alutop)[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402010120[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]215,000[end]
+       [GB]215,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 40/40 cm, System Knauf Alu-Top, mit GK-Füllung, Brandschutzanforderung F90[end]
+        [Kurztext]Revisionsklappe, REVO 12,5 40x40 (Alutop), F90[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402010130[end]
+       [Bedarf]E[end]
+       [ME]Stck[end]
+       [EP]265,000[end]
+       [GB]265,00[end]
+       #begin[Beschreibung]
+        [Langtext]Revi-Klappen, ca.: 60/60 cm, System Knauf Alu-Top, mit GK-Füllung, Brandschutzanforderung F90[end]
+        [Kurztext]Revisionsklappe REVO 12,5 60x60 (Alutop), F90[end]
+       #end[Beschreibung]
+      #end[Position]
+      [Summe]3210,00[end]
+     #end[LVBereich]
+     #begin[LVBereich]
+      [OZ]040202[end]
+      [Bez]Trockenbauarbeiten - Akustikdecke[end]
+      #begin[Position]
+       [OZ]0402020010[end]
+       [ME]m2[end]
+       [EP]100,000[end]
+       [GB]12800,00[end]
+       #begin[Beschreibung]
+        [Langtext]Alle Unterkonstruktionsteile aus verzinktem Material.  
+        Anschlüsse mit Stufenwinkel als saubere Schattenfuge. 
+        Decklage aus geschlitzten Gipsplatten, einlagig, 12,5 mm stark, Blockschlitzung, umlaufend 12,5 cm Fries, Rückseite kaschiert mit Akustikvlies, Fugen gespachtelt, Oberfläche gespachtelt und mit Malervlies beklebt. Deckender Anstrich in Dispersionsfarbe hell nach Wahl des AG. Wo erforderlich, 
+        Ausführung in entsprechender Brandschutz Qualität.  
+        
+        Auf die Raumakustik wird besonderen Wert gelegt. 
+        
+        Im Bereich von Deckeneinbauten sind die Löcher im Bereich von 10 cm zu verschließen. 
+        
+        Dämmschicht aus Mineralwolle nach akustischer Erfordernis. 
+        
+        Fabrikat: D127, Knauf Cleaneo® Akustik-Plattendecke
+        Lochbild 15/30 R oder 12/25 R
+        
+        
+        [end]
+        [Kurztext]Akustikdecke inkl. umlaufenden Fries, Fabr. Knauf Cleaneo Akustikdecke D127[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402020020[end]
+       [ME]m[end]
+       [EP]9,000[end]
+       [GB]90,00[end]
+       #begin[Beschreibung]
+        [Langtext]Zulage für Wandanschluss mit Stufenwinkel als saubere Schattenfuge.
+        [end]
+        [Kurztext]Zulage für Wandanschluss mit Stufenwinklel und Schattenfuge[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402020030[end]
+       [ME]m[end]
+       [EP]40,000[end]
+       [GB]3480,00[end]
+       #begin[Beschreibung]
+        [Langtext]Deckenschürze als senkrechten Randabschluß
+        der Decke. Von UK-Rohdecke bis UK-abgehängte Decke,
+        bestehend aus:
+        - 2x 12,5mm GKB
+        - Höhe bis ca. 40 cm
+        
+        einschl. erforderlicher Unterkonstruktion und
+        Befestigungsmittel.
+        [end]
+        [Kurztext]Deckenschürze, senkrecht, 2x12,5mm GKB, h=ca.40cm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402020040[end]
+       [ME]Stck[end]
+       [EP]20,000[end]
+       [GB]100,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen für Einbauleuchten/Lautsprecher etc: 
+        rund, DN bis 300 mm[end]
+        [Kurztext]Öffnungen für Leuchten/Lautsprecher o. ä., rund, bis Du=300mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      #begin[Position]
+       [OZ]0402020050[end]
+       [ME]Stck[end]
+       [EP]20,000[end]
+       [GB]100,00[end]
+       #begin[Beschreibung]
+        [Langtext]Öffnungen für Einbauleuchten/Lautsprecher etc: 
+        eckig, bis 300x300 mm[end]
+        [Kurztext]Öffnungen für Leuchten/Lautsprecher o. ä., eckig, bis 300x300mm[end]
+       #end[Beschreibung]
+      #end[Position]
+      [Summe]16570,00[end]
+     #end[LVBereich]
+     [Summe]19780,00[end]
+    #end[LVBereich]
+    [Summe]35960,00[end]
+   #end[LVBereich]
+  #end[LV]
+ #end[Vergabe]
+#end[GAEB]406|1298

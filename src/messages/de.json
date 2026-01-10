@@ -1,0 +1,352 @@
+{
+  "common": {
+    "appName": "AngebotsAgent",
+    "loading": "Wird geladen...",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "create": "Erstellen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "export": "Exportieren",
+    "download": "Herunterladen",
+    "upload": "Hochladen",
+    "yes": "Ja",
+    "no": "Nein",
+    "confirm": "Bestätigen",
+    "close": "Schließen",
+    "actions": "Aktionen",
+    "status": "Status",
+    "date": "Datum",
+    "description": "Beschreibung",
+    "notes": "Notizen",
+    "total": "Gesamt",
+    "subtotal": "Zwischensumme",
+    "quantity": "Menge",
+    "unit": "Einheit",
+    "price": "Preis",
+    "amount": "Betrag"
+  },
+  "auth": {
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "register": "Registrieren",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "forgotPassword": "Passwort vergessen?",
+    "loginTitle": "Bei AngebotsAgent anmelden",
+    "registerTitle": "Konto erstellen",
+    "noAccount": "Noch kein Konto?",
+    "hasAccount": "Bereits registriert?",
+    "loginError": "Anmeldung fehlgeschlagen. Bitte prüfen Sie Ihre Eingaben.",
+    "registerError": "Registrierung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "welcomeBack": "Willkommen zurück!"
+  },
+  "landing": {
+    "hero": {
+      "title": "Angebote schneller erstellen",
+      "subtitle": "AngebotsAgent hilft Subunternehmern, Ausschreibungsmengen zu extrahieren und professionelle Angebote zu generieren.",
+      "cta": "Jetzt starten"
+    },
+    "features": {
+      "title": "Funktionen",
+      "extraction": {
+        "title": "Mengenextraktion",
+        "description": "Automatische Extraktion von Positionen und Mengen aus Leistungsverzeichnissen"
+      },
+      "takeoff": {
+        "title": "Planauswertung",
+        "description": "Messen Sie Flächen und Längen direkt in PDF-Plänen"
+      },
+      "riskFlags": {
+        "title": "Nachtragspotenziale",
+        "description": "Erkennen Sie Risiken und Ungereimtheiten vor der Angebotsabgabe"
+      },
+      "export": {
+        "title": "Professionelle Exporte",
+        "description": "Excel-Kalkulation und PDF-Anschreiben mit einem Klick"
+      }
+    },
+    "trades": {
+      "title": "Für alle Gewerke",
+      "trockenbau": "Trockenbau",
+      "estrich": "Estrich",
+      "abdichtung": "Abdichtung",
+      "bodenleger": "Bodenleger"
+    }
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "projects": "Projekte",
+    "settings": "Einstellungen",
+    "company": "Firma",
+    "priceLibrary": "Preisbibliothek",
+    "templates": "Vorlagen"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen bei AngebotsAgent",
+    "recentProjects": "Aktuelle Projekte",
+    "openOffers": "Offene Angebote",
+    "dueSoon": "Fällig in Kürze",
+    "newProject": "Neues Projekt",
+    "noProjects": "Noch keine Projekte vorhanden",
+    "createFirst": "Erstellen Sie Ihr erstes Projekt"
+  },
+  "project": {
+    "title": "Projekt",
+    "projects": "Projekte",
+    "newProject": "Neues Projekt",
+    "editProject": "Projekt bearbeiten",
+    "deleteProject": "Projekt löschen",
+    "projectName": "Projektname",
+    "projectNumber": "Projektnummer",
+    "client": "Auftraggeber",
+    "clientName": "Name des Auftraggebers",
+    "clientContact": "Ansprechpartner",
+    "clientEmail": "E-Mail",
+    "clientPhone": "Telefon",
+    "location": "Bauvorhaben-Adresse",
+    "street": "Straße",
+    "zipCode": "PLZ",
+    "city": "Ort",
+    "deadline": "Abgabefrist",
+    "startDate": "Baubeginn",
+    "endDate": "Bauende",
+    "status": {
+      "draft": "Entwurf",
+      "inReview": "In Bearbeitung",
+      "submitted": "Abgegeben",
+      "won": "Gewonnen",
+      "lost": "Verloren",
+      "cancelled": "Storniert"
+    },
+    "tabs": {
+      "overview": "Übersicht",
+      "documents": "Dokumente",
+      "takeoff": "Mengen",
+      "offer": "Angebot",
+      "export": "Export"
+    }
+  },
+  "documents": {
+    "title": "Dokumente",
+    "upload": "Dokumente hochladen",
+    "uploadHint": "PDF-Dateien hierher ziehen oder klicken",
+    "uploadProgress": "Wird hochgeladen...",
+    "noDocuments": "Keine Dokumente vorhanden",
+    "documentType": "Dokumenttyp",
+    "types": {
+      "leistungsverzeichnis": "Leistungsverzeichnis",
+      "baubeschreibung": "Baubeschreibung",
+      "grundriss": "Grundriss",
+      "schnitt": "Schnitt",
+      "ansicht": "Ansicht",
+      "detail": "Detailplan",
+      "vertrag": "Vertrag",
+      "sonstige": "Sonstige"
+    },
+    "status": {
+      "uploaded": "Hochgeladen",
+      "processing": "Wird verarbeitet",
+      "extracted": "Extrahiert",
+      "reviewed": "Geprüft",
+      "failed": "Fehler"
+    },
+    "extract": "Extrahieren",
+    "extractAll": "Alle extrahieren",
+    "preview": "Vorschau"
+  },
+  "extraction": {
+    "title": "Extraktion",
+    "positions": "Positionen",
+    "position": "Position",
+    "shortText": "Kurztext",
+    "longText": "Langtext",
+    "quantity": "Menge",
+    "unit": "Einheit",
+    "pageRef": "Seite",
+    "confidence": "Konfidenz",
+    "verified": "Geprüft",
+    "verify": "Bestätigen",
+    "edit": "Korrigieren",
+    "noData": "Keine extrahierten Daten",
+    "runExtraction": "Extraktion starten",
+    "extractionComplete": "Extraktion abgeschlossen",
+    "positionsFound": "{count} Positionen gefunden"
+  },
+  "takeoff": {
+    "title": "Mengenermittlung",
+    "measurements": "Messungen",
+    "newMeasurement": "Neue Messung",
+    "measureArea": "Fläche messen",
+    "measureLength": "Länge messen",
+    "scale": "Maßstab",
+    "setScale": "Maßstab setzen",
+    "area": "Fläche",
+    "length": "Länge",
+    "label": "Bezeichnung",
+    "source": {
+      "extracted": "Extrahiert",
+      "measured": "Gemessen",
+      "manual": "Manuell",
+      "imported": "Importiert"
+    },
+    "noMeasurements": "Keine Messungen vorhanden",
+    "total": "Summe"
+  },
+  "offer": {
+    "title": "Angebot",
+    "draft": "Angebotsentwurf",
+    "newOffer": "Neues Angebot",
+    "offerNumber": "Angebotsnummer",
+    "offerDate": "Angebotsdatum",
+    "validUntil": "Gültig bis",
+    "lineItems": "Positionen",
+    "addItem": "Position hinzufügen",
+    "importFromExtraction": "Aus Extraktion importieren",
+    "importFromTakeoff": "Aus Mengenermittlung importieren",
+    "unitPrice": "Einheitspreis (EP)",
+    "totalPrice": "Gesamtpreis (GP)",
+    "markup": "Zuschläge",
+    "profit": "Gewinn",
+    "overhead": "AGK",
+    "risk": "Wagnis",
+    "discount": "Rabatt",
+    "netTotal": "Netto",
+    "vat": "MwSt.",
+    "grossTotal": "Brutto",
+    "coverLetter": "Anschreiben",
+    "terms": "AGB / Vertragsbedingungen",
+    "optional": "Bedarfsposition",
+    "alternative": "Alternativposition"
+  },
+  "riskFlags": {
+    "title": "Nachtragspotenziale",
+    "flag": "Risiko",
+    "newFlag": "Neues Risiko",
+    "category": "Kategorie",
+    "severity": "Schweregrad",
+    "source": "Quelle",
+    "clarificationQuestion": "Klärungsfrage",
+    "estimatedImpact": "Geschätzte Auswirkung",
+    "resolve": "Erledigt",
+    "acknowledge": "Zur Kenntnis",
+    "categories": {
+      "mengenabweichung": "Mengenabweichung",
+      "leistungsaenderung": "Leistungsänderung",
+      "bauablaufstoerung": "Bauablaufstörung",
+      "mangelhafte_planung": "Mangelhafte Planung",
+      "unklare_abgrenzung": "Unklare Abgrenzung",
+      "fehlende_position": "Fehlende Position",
+      "normabweichung": "Normabweichung",
+      "sonstige": "Sonstige"
+    },
+    "severities": {
+      "low": "Gering",
+      "medium": "Mittel",
+      "high": "Hoch",
+      "critical": "Kritisch"
+    },
+    "noFlags": "Keine Risiken erkannt",
+    "flagsFound": "{count} potenzielle Nachträge identifiziert"
+  },
+  "export": {
+    "title": "Export",
+    "generate": "Generieren",
+    "download": "Herunterladen",
+    "excel": "Excel-Kalkulation",
+    "pdf": "PDF-Anschreiben",
+    "json": "JSON-Datenpaket",
+    "package": "Komplettpaket",
+    "includeRiskFlags": "Nachtragspotenziale einschließen",
+    "includeTerms": "AGB einschließen",
+    "generating": "Wird generiert...",
+    "ready": "Bereit zum Download"
+  },
+  "company": {
+    "title": "Firmenprofil",
+    "companyName": "Firmenname",
+    "trade": "Gewerk",
+    "trades": {
+      "trockenbau": "Trockenbau",
+      "estrich": "Estrich",
+      "abdichtung": "Abdichtung",
+      "bodenleger": "Bodenleger",
+      "maler": "Maler",
+      "fliesen": "Fliesen",
+      "sonstige": "Sonstige"
+    },
+    "address": "Adresse",
+    "taxId": "Steuernummer",
+    "vatId": "USt-IdNr.",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "website": "Website",
+    "logo": "Firmenlogo",
+    "uploadLogo": "Logo hochladen",
+    "defaultMarkup": "Standard-Aufschläge",
+    "profitPercent": "Gewinn (%)",
+    "overheadPercent": "AGK (%)",
+    "riskPercent": "Wagnis (%)",
+    "offerTemplate": "Angebotsvorlage",
+    "templateStyles": {
+      "short": "Kurz",
+      "standard": "Standard",
+      "detailed": "Ausführlich"
+    }
+  },
+  "priceLibrary": {
+    "title": "Preisbibliothek",
+    "newItem": "Neuer Preis",
+    "editItem": "Preis bearbeiten",
+    "itemCode": "Artikelnummer",
+    "itemName": "Bezeichnung",
+    "category": "Kategorie",
+    "unitPrice": "Einheitspreis",
+    "laborHours": "Arbeitsstunden",
+    "materialCost": "Materialkosten",
+    "laborCost": "Lohnkosten",
+    "validFrom": "Gültig ab",
+    "validUntil": "Gültig bis",
+    "import": "Importieren",
+    "noItems": "Keine Preise vorhanden",
+    "searchPlaceholder": "Preise durchsuchen..."
+  },
+  "units": {
+    "m": "m",
+    "m2": "m²",
+    "m3": "m³",
+    "stk": "Stk.",
+    "kg": "kg",
+    "t": "t",
+    "l": "l",
+    "h": "Std.",
+    "psch": "psch.",
+    "percent": "%"
+  },
+  "errors": {
+    "generic": "Ein Fehler ist aufgetreten",
+    "notFound": "Nicht gefunden",
+    "unauthorized": "Nicht autorisiert",
+    "networkError": "Netzwerkfehler",
+    "uploadFailed": "Upload fehlgeschlagen",
+    "extractionFailed": "Extraktion fehlgeschlagen",
+    "saveFailed": "Speichern fehlgeschlagen",
+    "deleteFailed": "Löschen fehlgeschlagen",
+    "required": "Dieses Feld ist erforderlich",
+    "invalidEmail": "Ungültige E-Mail-Adresse",
+    "passwordMismatch": "Passwörter stimmen nicht überein",
+    "passwordTooShort": "Passwort muss mindestens 8 Zeichen haben"
+  },
+  "success": {
+    "saved": "Erfolgreich gespeichert",
+    "deleted": "Erfolgreich gelöscht",
+    "uploaded": "Erfolgreich hochgeladen",
+    "exported": "Export erfolgreich erstellt"
+  }
+}

@@ -1,0 +1,19 @@
+Betreff: Idee für euch
+
+An: j.jetter@jetter-rosenfeld.de
+
+---
+
+Moin Johannes,
+
+Sanierungsprojekte - da könnte das hier gut passen.
+
+Wir haben AngebotsAgent gebaut - eine Software, die Mengenermittlung aus Bauplänen macht, bei der Kalkulation hilft und Nachträge früh sichtbar macht. Am Ende kommt ein fertiges Angebot raus.
+
+Wichtig dabei: das ist keine Standard-Software von der Stange. Wir bauen das speziell für euch, angepasst an eure Prozesse. Keine Lizenzgebühren, keine versteckten Kosten.
+
+Heisst im Klartext: weniger Stress bei der Kalkulation, mehr gewonnene Aufträge.
+
+Hier kannst du es mal antesten: https://angebotsagent.de - sag Bescheid wenn Interesse besteht, dann schauen wir was für euch Sinn macht.
+
+VG Clarence
