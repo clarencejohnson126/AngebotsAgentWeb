@@ -18,7 +18,7 @@ function LoginForm() {
   const common = useTranslations('common')
   const router = useRouter()
   const searchParams = useSearchParams()
-  const redirectTo = searchParams.get('redirect') || '/projekte'
+  const redirectTo = searchParams?.get('redirect') || '/projekte'
 
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')

@@ -84,7 +84,7 @@ export function DashboardNav({ company }: DashboardNavProps) {
       {/* Navigation */}
       <nav className="flex-1 space-y-1 px-3 py-4">
         {navItems.map((item) => {
-          const isActive = pathname.startsWith(item.href)
+          const isActive = pathname?.startsWith(item.href)
           const Icon = item.icon
 
           return (
