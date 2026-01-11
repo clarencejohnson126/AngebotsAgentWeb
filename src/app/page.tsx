@@ -35,7 +35,7 @@ export default function LandingPage() {
   const getHeroTitleParts = () => {
     if (lang === 'de') {
       return [
-        <>Angebote <span className="text-blue-600">schnell</span></>,
+        <>Angebote <span className="text-blue-600">schneller</span></>,
         <>erstellen. Aufträge</>,
         <><span className="text-blue-600">besser</span> gewinnen.</>
       ]
