@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
 import { NextIntlClientProvider } from 'next-intl'
 import { getLocale, getMessages } from 'next-intl/server'
+import { Analytics } from '@vercel/analytics/react'
 import { Toaster } from '@/components/ui/sonner'
 import './globals.css'
 
@@ -32,6 +33,7 @@ export default async function RootLayout({
           {children}
           <Toaster />
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   )
