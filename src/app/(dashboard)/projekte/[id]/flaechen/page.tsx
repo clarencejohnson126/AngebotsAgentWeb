@@ -92,10 +92,11 @@ const CATEGORY_COLORS: Record<string, string> = {
 
 // Map blueprint style to display name
 const STYLE_LABELS: Record<string, string> = {
-  haardtring: 'Wohngebäude (Haardtring)',
-  leiq: 'Bürogebäude (LeiQ)',
-  omniturm: 'Hochhaus (Omniturm)',
-  unknown: 'Unbekannt',
+  haardtring: 'Wohngebäude',
+  leiq: 'Bürogebäude',
+  omniturm: 'Hochhaus',
+  ngf: 'NGF-Standard',
+  unknown: 'Standard',
 }
 
 // Format number as German format
@@ -446,33 +447,19 @@ export default function FlaechenPage() {
                   <div>
                     <p className="text-sm font-medium text-white">Automatische Erkennung</p>
                     <p className="text-xs text-slate-400 mt-1">
-                      Planstil (Haardtring, LeiQ, Omniturm) wird automatisch anhand von Textmustern erkannt.
+                      Raumflächen werden automatisch anhand von Textmustern erkannt.
                     </p>
                   </div>
                 </div>
 
                 <div className="mb-6">
-                  <p className="text-sm font-medium text-slate-400 mb-3">Unterstützte Muster</p>
+                  <p className="text-sm font-medium text-slate-400 mb-3">Unterstütztes Muster</p>
                   <div className="space-y-2">
                     <div className="flex items-center justify-between bg-slate-700/50 rounded px-3 py-2">
-                      <span className="text-emerald-400 font-mono font-bold">NRF:</span>
-                      <span className="text-slate-400 text-sm">Netto-Raumfläche (Büro)</span>
-                    </div>
-                    <div className="flex items-center justify-between bg-slate-700/50 rounded px-3 py-2">
-                      <span className="text-emerald-400 font-mono font-bold">F:</span>
-                      <span className="text-slate-400 text-sm">Fläche (Wohnbau)</span>
-                    </div>
-                    <div className="flex items-center justify-between bg-slate-700/50 rounded px-3 py-2">
                       <span className="text-emerald-400 font-mono font-bold">NGF:</span>
-                      <span className="text-slate-400 text-sm">Netto-Grundfläche (Hochhaus)</span>
+                      <span className="text-slate-400 text-sm">Netto-Grundfläche (m²)</span>
                     </div>
                   </div>
-                </div>
-
-                <div className="bg-slate-700/50 rounded p-3 mb-6">
-                  <p className="text-sm text-slate-300">
-                    <span className="font-medium">Balkonfaktor:</span> Außenbereiche (Balkon, Terrasse, Loggia) werden automatisch erkannt und mit 50% angerechnet.
-                  </p>
                 </div>
 
                 <Button
