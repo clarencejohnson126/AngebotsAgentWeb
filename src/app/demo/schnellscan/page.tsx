@@ -9,7 +9,6 @@ import {
   CheckCircle,
   Download,
   ChevronRight,
-  ArrowLeft,
   Upload,
   FileText,
   Loader2,
@@ -251,10 +250,6 @@ export default function DemoSchnellscanPage() {
       <div className="border-b border-slate-700 px-6 py-4">
         <div className="flex items-center justify-between">
           <div>
-            <a href="http://localhost:5173" className="inline-flex items-center text-slate-400 hover:text-white text-sm mb-2">
-              <ArrowLeft className="h-4 w-4 mr-1" />
-              Zurück zur Startseite
-            </a>
             <h1 className="text-2xl font-bold text-white">Aufmaß Schnellscan</h1>
             <p className="text-sm text-slate-400 mt-1">
               Raumflächen aus Grundrissen sofort extrahieren - Kostenlos testen
