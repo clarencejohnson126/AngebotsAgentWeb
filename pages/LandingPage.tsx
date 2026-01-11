@@ -176,7 +176,7 @@ export const LandingPage: React.FC<{ lang: Language }> = ({ lang }) => {
              </div>
              {/* Aufmaß testen Link */}
              <a
-               href="http://localhost:3000/demo/schnellscan"
+               href="https://www.angebots-agent.de/demo/schnellscan"
                target="_blank"
                rel="noopener noreferrer"
                className="mt-4 md:mt-6 inline-flex items-center gap-2 text-blue-600 font-bold hover:text-blue-800 transition-colors group text-sm md:text-base"
