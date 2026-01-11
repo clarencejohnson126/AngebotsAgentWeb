@@ -48,3 +48,6 @@ __pycache__/
 env/
 venv/
 .venv/
+
+# Large training data files
+Real Offers for Training/
