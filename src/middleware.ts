@@ -66,6 +66,11 @@ export async function middleware(request: NextRequest) {
     }
   )
 
+  // Auth callback route - let it through BEFORE any auth checks
+  if (request.nextUrl.pathname.startsWith('/auth/callback')) {
+    return response
+  }
+
   const { data: { user } } = await supabase.auth.getUser()
 
   // Protected routes - redirect to login if not authenticated
@@ -78,11 +83,6 @@ export async function middleware(request: NextRequest) {
     const redirectUrl = new URL('/login', request.url)
     redirectUrl.searchParams.set('redirect', request.nextUrl.pathname)
     return NextResponse.redirect(redirectUrl)
-  }
-
-  // Auth callback route - let it through without checks
-  if (request.nextUrl.pathname.startsWith('/auth/callback')) {
-    return response
   }
 
   // Auth routes - redirect to dashboard if already authenticated
