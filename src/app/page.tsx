@@ -27,6 +27,7 @@ const mascotHero = 'https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/p
 const mascotPage3 = 'https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/Page%203.png'
 const mascotPage5 = 'https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/Page%207.png'
 const mascotPage7 = 'https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/Page%205%20(1).png'
+const rebelzLogo = "https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/ChatGPT%20Image%20Dec%2029,%202025,%2002_08_06%20AM.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvQ2hhdEdQVCBJbWFnZSBEZWMgMjksIDIwMjUsIDAyXzA4XzA2IEFNLnBuZyIsImlhdCI6MTc2Nzk1NDE1MSwiZXhwIjoxOTU3MTcwMTUxfQ.ZY_xLspOoFMMjMG5ZG22Gwr-CebXCgo_18urp_hA8co"
 
 export default function LandingPage() {
   const [lang, setLang] = useState<Language>('de')
@@ -191,7 +192,7 @@ export default function LandingPage() {
         <div className="max-w-4xl mx-auto relative z-10">
           {/* Title */}
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-center text-slate-900 mb-10 md:mb-16" style={{ fontFamily: 'Georgia, serif' }}>
-            {lang === 'de' ? 'AngebotsAgent: Die Allzweckwaffe' : 'BidAgent: The All-Purpose Weapon'}
+            {lang === 'de' ? 'Erklärungsvideo' : 'Explainer Video'}
           </h2>
 
           {/* Tablet Device Frame */}
@@ -515,11 +516,27 @@ export default function LandingPage() {
                 {lang === 'de' ? 'Individuelle Bau-KI-Lösungen.' : 'Custom Construction AI Solutions.'}
               </p>
             </div>
+            {/* Rebelz AI Attribution */}
+            <a
+              href="https://rebelzai.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-end group transition-all"
+            >
+               <span className="text-[10px] font-black uppercase tracking-[0.4em] text-slate-400 group-hover:text-slate-900 transition-colors mb-2">
+                 {lang === 'de' ? 'Eine Dienstleistung von Rebelz AI' : 'A service by Rebelz AI'}
+               </span>
+               <img
+                 src={rebelzLogo}
+                 alt="Rebelz AI Logo"
+                 className="h-8 grayscale opacity-40 group-hover:grayscale-0 group-hover:opacity-100 transition-all"
+               />
+            </a>
           </div>
 
           <div className="pt-10 border-t border-slate-100 flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="opacity-40 text-[10px] font-bold uppercase tracking-widest text-center md:text-left">
-               © 2025 AngebotsAgent. {lang === 'de' ? 'Ihr Eigentum. Ihre Marge. Ihre Zukunft.' : 'Your Property. Your Margin. Your Future.'}
+               © 2026 AngebotsAgent.
             </div>
 
             <div className="flex flex-wrap gap-x-12 gap-y-4 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
