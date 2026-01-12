@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { createClient } from '@/lib/supabase/client'
+import { DEMO_TAKEOFF_RESULTS } from '@/lib/mock-data'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -43,10 +44,18 @@ export function TakeoffTab({ projectId }: TakeoffTabProps) {
 
   const supabase = createClient()
 
+  // Check if this is a demo project
+  const isDemoProject = projectId.startsWith('project-')
+
   // Fetch takeoff results
   const { data: takeoffs, isLoading } = useSWR(
     `takeoffs-${projectId}`,
     async () => {
+      // For demo projects, return mock takeoff results
+      if (isDemoProject) {
+        return DEMO_TAKEOFF_RESULTS.filter(t => t.project_id === projectId)
+      }
+
       const { data, error } = await supabase
         .from('takeoff_results')
         .select('*')

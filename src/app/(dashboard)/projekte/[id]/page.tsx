@@ -5,6 +5,11 @@ import { notFound, useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 import { createClient } from '@/lib/supabase/client'
+import {
+  DEMO_PROJECTS,
+  DEMO_DOCUMENTS,
+  DEMO_RISK_FLAGS,
+} from '@/lib/mock-data'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
@@ -48,8 +53,28 @@ export default function ProjectPage({ params }: ProjectPageProps) {
   const [documentCount, setDocumentCount] = useState(0)
   const [riskCount, setRiskCount] = useState(0)
 
+  // Check if this is a demo project
+  const isDemoProject = params.id.startsWith('project-')
+
   useEffect(() => {
     async function fetchProject() {
+      // Handle demo projects from mock data
+      if (isDemoProject) {
+        const demoProject = DEMO_PROJECTS.find(p => p.id === params.id)
+        if (demoProject) {
+          setProject(demoProject)
+          // Count demo documents for this project
+          const demoDocuments = DEMO_DOCUMENTS.filter(d => d.project_id === params.id)
+          setDocumentCount(demoDocuments.length)
+          // Count demo risk flags for this project
+          const demoRisks = DEMO_RISK_FLAGS.filter(r => r.project_id === params.id && !r.is_resolved)
+          setRiskCount(demoRisks.length)
+        }
+        setLoading(false)
+        return
+      }
+
+      // Fetch real project from Supabase
       const supabase = createClient()
 
       // Fetch project
@@ -86,7 +111,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
     }
 
     fetchProject()
-  }, [params.id])
+  }, [params.id, isDemoProject])
 
   const statusLabels: Record<OfferStatus, string> = {
     draft: t('status.draft'),

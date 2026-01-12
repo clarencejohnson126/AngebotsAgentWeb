@@ -229,20 +229,36 @@ export async function getUserCompany() {
     return null
   }
 
-  const { data: membership } = await supabase
+  // First get the membership
+  const { data: membership, error: memberError } = await supabase
     .from('company_members')
-    .select('company_id, role, companies(*)')
+    .select('company_id, role')
     .eq('user_id', user.id)
-    .single()
+    .maybeSingle()
 
-  if (!membership) {
+  console.log('getUserCompany - user:', user.id, 'membership:', membership, 'error:', memberError)
+
+  if (!membership || !membership.company_id) {
+    return null
+  }
+
+  // Then get the company details
+  const { data: company, error: companyError } = await supabase
+    .from('companies')
+    .select('*')
+    .eq('id', membership.company_id)
+    .maybeSingle()
+
+  console.log('getUserCompany - company:', company, 'error:', companyError)
+
+  if (!company) {
     return null
   }
 
   return {
     companyId: membership.company_id,
     role: membership.role,
-    company: membership.companies,
+    company: company,
   }
 }
 

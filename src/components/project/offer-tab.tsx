@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { createClient } from '@/lib/supabase/client'
+import { DEMO_OFFER_DRAFTS, DEMO_OFFER_LINE_ITEMS, DEMO_RISK_FLAGS } from '@/lib/mock-data'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -47,10 +48,23 @@ export function OfferTab({ projectId }: OfferTabProps) {
   const [saving, setSaving] = useState(false)
   const supabase = createClient()
 
+  // Check if this is a demo project
+  const isDemoProject = projectId.startsWith('project-')
+
   // Fetch offer draft
   const { data: offerDraft, isLoading: loadingOffer } = useSWR(
     `offer-draft-${projectId}`,
     async () => {
+      // For demo projects, return mock offer draft with line items
+      if (isDemoProject) {
+        const demoOffer = DEMO_OFFER_DRAFTS.find(o => o.project_id === projectId && o.is_current)
+        if (demoOffer) {
+          const lineItems = DEMO_OFFER_LINE_ITEMS.filter(li => li.offer_draft_id === demoOffer.id)
+          return { ...demoOffer, offer_line_items: lineItems }
+        }
+        return null
+      }
+
       const { data, error } = await supabase
         .from('offer_drafts')
         .select('*, offer_line_items(*)')
@@ -67,6 +81,11 @@ export function OfferTab({ projectId }: OfferTabProps) {
   const { data: riskFlags, isLoading: loadingRisks } = useSWR(
     `risk-flags-${projectId}`,
     async () => {
+      // For demo projects, return mock risk flags
+      if (isDemoProject) {
+        return DEMO_RISK_FLAGS.filter(r => r.project_id === projectId)
+      }
+
       const { data, error } = await supabase
         .from('risk_flags')
         .select('*')

@@ -35,7 +35,7 @@ const TABLE_NAME_MAP: Record<string, string> = {
 
 // Check if we're in demo mode (client-side)
 function isDemoModeClient(): boolean {
-  if (typeof window === 'undefined') return true
+  // Check environment variables - NEXT_PUBLIC_ vars are available on both server and client
   return !process.env.NEXT_PUBLIC_SUPABASE_URL ||
          !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ||
          process.env.NEXT_PUBLIC_DEMO_MODE === 'true'

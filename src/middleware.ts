@@ -15,6 +15,11 @@ export async function middleware(request: NextRequest) {
     },
   })
 
+  // Allow auth callback route through without any checks
+  if (request.nextUrl.pathname.startsWith('/auth/callback')) {
+    return response
+  }
+
   // In demo mode, skip authentication checks
   if (isDemoMode()) {
     return response
@@ -69,7 +74,7 @@ export async function middleware(request: NextRequest) {
   const { data: { user } } = await supabase.auth.getUser()
 
   // Protected routes - redirect to login if not authenticated
-  const protectedPaths = ['/projekte', '/einstellungen']
+  const protectedPaths = ['/projekte', '/einstellungen', '/firma-einrichten']
   const isProtectedPath = protectedPaths.some(path =>
     request.nextUrl.pathname.startsWith(path)
   )
@@ -80,15 +85,8 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(redirectUrl)
   }
 
-  // Auth routes - redirect to dashboard if already authenticated
-  const authPaths = ['/login', '/registrieren']
-  const isAuthPath = authPaths.some(path =>
-    request.nextUrl.pathname.startsWith(path)
-  )
-
-  if (isAuthPath && user) {
-    return NextResponse.redirect(new URL('/projekte', request.url))
-  }
+  // Login page is always accessible - no redirect for authenticated users
+  // Users can choose to log out or continue to dashboard from there
 
   return response
 }

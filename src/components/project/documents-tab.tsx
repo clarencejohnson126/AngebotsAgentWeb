@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import { useTranslations } from 'next-intl'
 import { useDropzone } from 'react-dropzone'
 import { createClient } from '@/lib/supabase/client'
+import { DEMO_DOCUMENTS } from '@/lib/mock-data'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
@@ -74,10 +75,18 @@ export function DocumentsTab({ projectId }: DocumentsTabProps) {
 
   const supabase = createClient()
 
+  // Check if this is a demo project
+  const isDemoProject = projectId.startsWith('project-')
+
   // Fetch documents
   const { data: documents, error, isLoading } = useSWR(
     `documents-${projectId}`,
     async () => {
+      // For demo projects, return mock documents
+      if (isDemoProject) {
+        return DEMO_DOCUMENTS.filter(d => d.project_id === projectId)
+      }
+
       const { data, error } = await supabase
         .from('documents')
         .select('*')
