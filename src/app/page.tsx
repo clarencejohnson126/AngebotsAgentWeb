@@ -22,11 +22,11 @@ const TRANSLATIONS = {
   }
 }
 
-// Mascot image paths (from public folder)
-const mascotHero = '/mascots/Maskot for hero page.png'
-const mascotPage3 = '/mascots/Page 3.png'
-const mascotPage5 = '/mascots/Page 5.png'
-const mascotPage7 = '/mascots/Page 7.png'
+// Mascot image paths (from Supabase storage)
+const mascotHero = 'https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/Maskot%20for%20hero%20page.png'
+const mascotPage3 = 'https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/Page%203.png'
+const mascotPage5 = 'https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/Page%207.png'
+const mascotPage7 = 'https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/Page%205%20(1).png'
 
 export default function LandingPage() {
   const [lang, setLang] = useState<Language>('de')
@@ -116,7 +116,7 @@ export default function LandingPage() {
                 {t.ctaDemo}
               </Link>
               <Link
-                href="/projekte"
+                href="/login"
                 className="text-slate-900 px-8 py-4 sm:px-12 sm:py-6 rounded-full font-black text-base sm:text-xl hover:bg-slate-50 border-4 border-slate-900 transition-all w-full sm:w-auto inline-block text-center"
               >
                 {t.ctaLogin}
@@ -166,6 +166,30 @@ export default function LandingPage() {
                 <p className="text-sm text-slate-400 group-hover:text-white/90 leading-relaxed italic">{p.d}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* EXPLAINER VIDEO */}
+      <section className="py-16 md:py-24 bg-white px-4 sm:px-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-8 md:mb-12">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-black tracking-tight brand-font uppercase text-slate-900 mb-4">
+              {lang === 'de' ? 'So funktioniert der AngebotsAgent' : 'How the BidAgent Works'}
+            </h2>
+            <p className="text-slate-500 text-base md:text-lg font-medium italic max-w-2xl mx-auto">
+              {lang === 'de' ? 'Sehen Sie in 2 Minuten, wie der Agent Ihren Angebotsprozess revolutioniert.' : 'See in 2 minutes how the agent revolutionizes your bidding process.'}
+            </p>
+          </div>
+          <div className="relative rounded-2xl md:rounded-3xl overflow-hidden shadow-2xl border border-slate-200">
+            <video
+              controls
+              className="w-full aspect-video bg-slate-900"
+              poster=""
+            >
+              <source src="https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/freecompress-AngebotsAgentVideo.mp4" type="video/mp4" />
+              {lang === 'de' ? 'Ihr Browser unterstützt das Video-Tag nicht.' : 'Your browser does not support the video tag.'}
+            </video>
           </div>
         </div>
       </section>
