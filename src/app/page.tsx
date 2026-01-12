@@ -171,25 +171,53 @@ export default function LandingPage() {
       </section>
 
       {/* EXPLAINER VIDEO */}
-      <section className="py-16 md:py-24 bg-white px-4 sm:px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-8 md:mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-black tracking-tight brand-font uppercase text-slate-900 mb-4">
-              {lang === 'de' ? 'So funktioniert der AngebotsAgent' : 'How the BidAgent Works'}
-            </h2>
-            <p className="text-slate-500 text-base md:text-lg font-medium italic max-w-2xl mx-auto">
-              {lang === 'de' ? 'Sehen Sie in 2 Minuten, wie der Agent Ihren Angebotsprozess revolutioniert.' : 'See in 2 minutes how the agent revolutionizes your bidding process.'}
-            </p>
-          </div>
-          <div className="relative rounded-2xl md:rounded-3xl overflow-hidden shadow-2xl border border-slate-200">
-            <video
-              controls
-              className="w-full aspect-video bg-slate-900"
-              poster=""
-            >
-              <source src="https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/freecompress-AngebotsAgentVideo.mp4" type="video/mp4" />
-              {lang === 'de' ? 'Ihr Browser unterstützt das Video-Tag nicht.' : 'Your browser does not support the video tag.'}
-            </video>
+      <section className="py-16 md:py-32 bg-[#f5f5f5] px-4 sm:px-6 relative overflow-hidden">
+        {/* Decorative circles - left side */}
+        <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 hidden lg:block">
+          <div className="w-64 h-64 rounded-full border-[3px] border-teal-400"></div>
+        </div>
+        <div className="absolute left-16 top-1/3 hidden lg:block">
+          <div className="w-8 h-8 rounded-full bg-teal-400"></div>
+        </div>
+
+        {/* Decorative circles - right side */}
+        <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 hidden lg:block">
+          <div className="w-64 h-64 rounded-full border-[3px] border-teal-400"></div>
+        </div>
+        <div className="absolute right-16 top-2/3 hidden lg:block">
+          <div className="w-8 h-8 rounded-full bg-teal-400"></div>
+        </div>
+
+        <div className="max-w-4xl mx-auto relative z-10">
+          {/* Title */}
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-center text-slate-900 mb-10 md:mb-16" style={{ fontFamily: 'Georgia, serif' }}>
+            {lang === 'de' ? 'AngebotsAgent: Die Allzweckwaffe' : 'BidAgent: The All-Purpose Weapon'}
+          </h2>
+
+          {/* Tablet Device Frame */}
+          <div className="relative mx-auto max-w-3xl">
+            {/* Outer frame with teal accent */}
+            <div className="bg-white rounded-[2rem] md:rounded-[3rem] p-2 md:p-3 shadow-2xl border-2 border-slate-200 relative">
+              {/* Teal corner accents */}
+              <div className="absolute -left-1 top-8 w-2 h-24 bg-teal-400 rounded-r-full"></div>
+              <div className="absolute -right-1 top-8 w-2 h-24 bg-teal-400 rounded-l-full"></div>
+
+              {/* Camera dot */}
+              <div className="absolute top-4 left-1/2 -translate-x-1/2 w-2 h-2 bg-teal-400 rounded-full md:hidden"></div>
+              <div className="hidden md:block absolute left-6 top-1/2 -translate-y-1/2 w-3 h-3 bg-teal-400 rounded-full"></div>
+
+              {/* Inner screen */}
+              <div className="bg-slate-900 rounded-[1.5rem] md:rounded-[2.5rem] overflow-hidden">
+                <video
+                  controls
+                  className="w-full aspect-video"
+                  preload="metadata"
+                >
+                  <source src="https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/freecompress-AngebotsAgentVideo.mp4" type="video/mp4" />
+                  {lang === 'de' ? 'Ihr Browser unterstützt das Video-Tag nicht.' : 'Your browser does not support the video tag.'}
+                </video>
+              </div>
+            </div>
           </div>
         </div>
       </section>
