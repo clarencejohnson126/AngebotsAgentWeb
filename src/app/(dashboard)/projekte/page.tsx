@@ -47,7 +47,7 @@ export default async function ProjectsPage() {
   // Filter out demo projects from user's projects list (they're shown in demo section)
   const projects = inDemoMode
     ? rawProjects // In demo mode, show all projects (including demo) as user's projects
-    : rawProjects?.filter(p => !DEMO_PROJECT_IDS.includes(p.id)) // In production, filter out demo IDs
+    : rawProjects?.filter((p: Project) => !DEMO_PROJECT_IDS.includes(p.id)) // In production, filter out demo IDs
 
   const statusLabels: Record<OfferStatus, string> = {
     draft: t('status.draft'),
