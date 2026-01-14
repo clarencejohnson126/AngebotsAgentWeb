@@ -541,8 +541,8 @@ export default function LandingPage() {
 
             <div className="flex flex-wrap gap-x-12 gap-y-4 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
                <Link href="/beispiele" className="hover:text-slate-900 transition-colors">{t.examples}</Link>
-               <button type="button" className="hover:text-slate-900 transition-colors">{lang === 'de' ? 'Impressum' : 'Legal Notice'}</button>
-               <button type="button" className="hover:text-slate-900 transition-colors">{lang === 'de' ? 'Datenschutz' : 'Privacy Policy'}</button>
+               <Link href="/impressum" className="hover:text-slate-900 transition-colors">{lang === 'de' ? 'Impressum' : 'Legal Notice'}</Link>
+               <Link href="/datenschutz" className="hover:text-slate-900 transition-colors">{lang === 'de' ? 'Datenschutz' : 'Privacy Policy'}</Link>
             </div>
           </div>
         </div>

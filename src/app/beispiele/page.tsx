@@ -425,9 +425,8 @@ export default function BeispielePage() {
             {/* Footer Links */}
             <div className="flex flex-wrap gap-x-12 gap-y-4 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
                <Link href="/beispiele" className="hover:text-slate-900 transition-colors">{t.examples}</Link>
-               <button type="button" className="hover:text-slate-900 transition-colors">{t.impressum}</button>
-               <button type="button" className="hover:text-slate-900 transition-colors">{t.datenschutz}</button>
-               <button type="button" className="hover:text-slate-900 transition-colors">{t.vobSupport}</button>
+               <Link href="/impressum" className="hover:text-slate-900 transition-colors">{t.impressum}</Link>
+               <Link href="/datenschutz" className="hover:text-slate-900 transition-colors">{t.datenschutz}</Link>
             </div>
           </div>
         </div>
