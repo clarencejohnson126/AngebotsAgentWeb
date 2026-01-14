@@ -50,7 +50,7 @@ export default function ImpressumPage() {
             <section>
               <h2 className="text-xl font-bold text-slate-900 mb-4">Kontakt</h2>
               <p className="font-medium">
-                E-Mail: kontakt@angebotsagent.de
+                E-Mail: info@angebots-agent.de
               </p>
             </section>
 

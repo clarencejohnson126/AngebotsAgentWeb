@@ -87,7 +87,7 @@ export default function DatenschutzPage() {
                 Clarence Johnson<br />
                 George-Washington-Str. 219<br />
                 68309 Mannheim<br /><br />
-                E-Mail: kontakt@angebotsagent.de
+                E-Mail: info@angebots-agent.de
               </p>
               <p className="mt-4">
                 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder
@@ -128,7 +128,7 @@ export default function DatenschutzPage() {
                 Clarence Johnson<br />
                 George-Washington-Str. 219<br />
                 68309 Mannheim<br /><br />
-                E-Mail: kontakt@angebotsagent.de
+                E-Mail: info@angebots-agent.de
               </p>
 
               <h3 className="text-lg font-bold text-slate-800 mb-2">Speicherdauer</h3>
