@@ -227,7 +227,7 @@ export default function DemoDashboard() {
 
           <div className="pt-10 border-t border-slate-100 flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="opacity-40 text-[10px] font-bold uppercase tracking-widest text-center md:text-left">
-               © 2025 AngebotsAgent.
+               © 2026 AngebotsAgent.
             </div>
 
             <div className="flex flex-wrap gap-x-12 gap-y-4 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
