@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Script from 'next/script'
 
 type Language = 'de' | 'en'
 
@@ -52,6 +53,9 @@ export default function LandingPage() {
 
   return (
     <div className="flex flex-col overflow-x-hidden selection:bg-blue-100 selection:text-blue-900 bg-white">
+      {/* Gumroad Script */}
+      <Script src="https://gumroad.com/js/gumroad.js" strategy="lazyOnload" />
+
       {/* Sticky Header */}
       <header className="sticky top-0 z-50 bg-white border-b border-slate-200 px-3 sm:px-6 py-3 flex items-center justify-between shadow-sm">
         <div className="flex items-center flex-shrink-0">
@@ -97,10 +101,8 @@ export default function LandingPage() {
       <section className="min-h-[100vh] md:min-h-[85vh] flex flex-col justify-center items-center px-4 sm:px-6 py-12 md:py-0 text-center relative bg-[#fcfcfc] border-b border-slate-100">
         {/* Gumroad E-Book Button - Desktop only (top right of hero) */}
         <a
-          className="hidden sm:block absolute top-4 right-6 z-40 bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full text-xs font-black uppercase tracking-wider transition-all whitespace-nowrap shadow-lg"
+          className="gumroad-button hidden sm:block absolute top-4 right-6 z-40"
           href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           {lang === 'de' ? 'Hol dir dein E-Book' : 'Get your E-Book'}
         </a>
@@ -137,12 +139,10 @@ export default function LandingPage() {
 
             {/* Gumroad E-Book Button - Mobile only (between buttons and mascot) */}
             <a
-              className="sm:hidden mt-6 bg-pink-500 hover:bg-pink-600 text-white px-2 py-1 rounded-full text-[8px] font-bold uppercase tracking-wide transition-all whitespace-nowrap shadow-md"
+              className="gumroad-button sm:hidden mt-6"
               href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
-              target="_blank"
-              rel="noopener noreferrer"
             >
-              E-Book
+              Hol dir dein E-Book
             </a>
           </div>
 
