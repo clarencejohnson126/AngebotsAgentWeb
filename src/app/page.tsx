@@ -94,13 +94,6 @@ export default function LandingPage() {
               Login
             </Link>
           </div>
-          {/* Gumroad E-Book Button - Mobile only (in header) */}
-          <a
-            className="gumroad-button sm:hidden bg-pink-500 hover:bg-pink-600 text-white px-3 py-2 rounded-full text-[10px] font-black uppercase tracking-wider transition-all whitespace-nowrap"
-            href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
-          >
-            E-Book
-          </a>
         </div>
       </header>
 
@@ -144,6 +137,14 @@ export default function LandingPage() {
                 {t.ctaLogin}
               </Link>
             </div>
+
+            {/* Gumroad E-Book Button - Mobile only (between buttons and mascot) */}
+            <a
+              className="gumroad-button sm:hidden mt-6 bg-pink-500 hover:bg-pink-600 text-white px-2 py-1 rounded-full text-[8px] font-bold uppercase tracking-wide transition-all whitespace-nowrap shadow-md"
+              href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
+            >
+              E-Book
+            </a>
           </div>
 
           {/* Mascot - Right Side */}
