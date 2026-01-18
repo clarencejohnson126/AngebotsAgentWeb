@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Script from 'next/script'
 
 type Language = 'de' | 'en'
 
@@ -52,42 +53,54 @@ export default function LandingPage() {
 
   return (
     <div className="flex flex-col overflow-x-hidden selection:bg-blue-100 selection:text-blue-900 bg-white">
+      {/* Gumroad Script */}
+      <Script src="https://gumroad.com/js/gumroad.js" strategy="lazyOnload" />
+
       {/* Sticky Header */}
-      <header className="sticky top-0 z-50 bg-white border-b border-slate-200 px-6 py-3 flex items-center justify-between shadow-sm">
-        <div className="flex items-center space-x-6">
-          <Link href="/" className="text-2xl font-black tracking-tighter text-slate-900 brand-font">
+      <header className="sticky top-0 z-50 bg-white border-b border-slate-200 px-3 sm:px-6 py-3 flex items-center justify-between shadow-sm">
+        <div className="flex items-center flex-shrink-0">
+          <Link href="/" className="text-lg sm:text-2xl font-black tracking-tighter text-slate-900 brand-font whitespace-nowrap">
             Angebots<span className="text-blue-700 italic">Agent</span>
           </Link>
         </div>
 
-        <div className="flex items-center space-x-4">
-          {/* Language Switcher */}
-          <div className="flex items-center space-x-1 bg-slate-100 rounded-full p-1">
-            <button
-              onClick={() => setLang('de')}
-              className={`px-3 py-1 rounded-full text-xs font-bold transition-all ${lang === 'de' ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+        <div className="flex flex-col sm:flex-row items-end sm:items-center gap-2 sm:gap-4">
+          <div className="flex items-center space-x-2 sm:space-x-4">
+            {/* Language Switcher */}
+            <div className="flex items-center space-x-1 bg-slate-100 rounded-full p-1">
+              <button
+                onClick={() => setLang('de')}
+                className={`px-2 sm:px-3 py-1 rounded-full text-xs font-bold transition-all ${lang === 'de' ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+              >
+                DE
+              </button>
+              <button
+                onClick={() => setLang('en')}
+                className={`px-2 sm:px-3 py-1 rounded-full text-xs font-bold transition-all ${lang === 'en' ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+              >
+                EN
+              </button>
+            </div>
+            <Link
+              href="/beispiele"
+              className="hidden sm:block text-xs font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors"
             >
-              DE
-            </button>
-            <button
-              onClick={() => setLang('en')}
-              className={`px-3 py-1 rounded-full text-xs font-bold transition-all ${lang === 'en' ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+              {t.examples}
+            </Link>
+            <Link
+              href="/login"
+              className="bg-slate-900 text-white px-4 sm:px-6 py-2 rounded-full text-xs font-black uppercase tracking-widest hover:bg-blue-700 transition-all whitespace-nowrap"
             >
-              EN
-            </button>
+              Login
+            </Link>
           </div>
-          <Link
-            href="/beispiele"
-            className="text-xs font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors"
+          {/* Gumroad E-Book Button */}
+          <a
+            className="gumroad-button bg-pink-500 hover:bg-pink-600 text-white px-3 sm:px-4 py-2 rounded-full text-[10px] sm:text-xs font-black uppercase tracking-wider transition-all whitespace-nowrap"
+            href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
           >
-            {t.examples}
-          </Link>
-          <Link
-            href="/login"
-            className="bg-slate-900 text-white px-6 py-2 rounded-full text-xs font-black uppercase tracking-widest hover:bg-blue-700 transition-all"
-          >
-            Login
-          </Link>
+            {lang === 'de' ? 'E-Book' : 'E-Book'}
+          </a>
         </div>
       </header>
 
