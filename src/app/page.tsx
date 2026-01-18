@@ -100,12 +100,14 @@ export default function LandingPage() {
       {/* 1. HERO: ARCHITECTURAL PRECISION */}
       <section className="min-h-[100vh] md:min-h-[85vh] flex flex-col justify-center items-center px-4 sm:px-6 py-12 md:py-0 text-center relative bg-[#fcfcfc] border-b border-slate-100">
         {/* Gumroad E-Book Button - Desktop only (top right of hero) */}
-        <a
-          className="gumroad-button hidden sm:block absolute top-4 right-6 z-40"
-          href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
-        >
-          {lang === 'de' ? 'Hol dir dein E-Book' : 'Get your E-Book'}
-        </a>
+        <div className="hidden sm:block absolute top-4 right-6 z-40">
+          <a
+            className="gumroad-button"
+            href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
+          >
+            {lang === 'de' ? 'Hol dir dein E-Book' : 'Get your E-Book'}
+          </a>
+        </div>
         <div className="max-w-7xl mx-auto z-10 flex flex-col lg:flex-row items-center w-full">
           <div className="flex-1 flex flex-col items-center lg:items-start lg:text-left">
             <span className="text-blue-600 font-black uppercase tracking-[0.3em] sm:tracking-[0.6em] text-[10px] sm:text-[11px] mb-6 md:mb-10 block animate-fade-in">
@@ -138,12 +140,14 @@ export default function LandingPage() {
             </div>
 
             {/* Gumroad E-Book Button - Mobile only (between buttons and mascot) */}
-            <a
-              className="gumroad-button sm:hidden mt-6"
-              href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
-            >
-              Hol dir dein E-Book
-            </a>
+            <div className="sm:hidden mt-6">
+              <a
+                className="gumroad-button"
+                href="https://rebelzai.gumroad.com/l/KI-Nachunternehmer"
+              >
+                Hol dir dein E-Book
+              </a>
+            </div>
           </div>
 
           {/* Mascot - Right Side */}
