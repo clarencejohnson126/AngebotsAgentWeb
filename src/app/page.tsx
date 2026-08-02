@@ -28,6 +28,12 @@ const mascotHero = '/mascots/mascot-hero.png'
 const mascotPage3 = '/mascots/mascot-page3.png'
 const mascotPage5 = '/mascots/mascot-page5.png'
 const mascotPage7 = '/mascots/mascot-page7.png'
+
+// Erklärungsvideo: Die Quelldatei lag im gelöschten Supabase-Projekt und ist verloren.
+// Leerer String blendet die gesamte Video-Sektion aus. Sobald eine neue Datei vorliegt,
+// hier den Pfad eintragen (z.B. '/videos/erklaerungsvideo.mp4') — die Sektion erscheint
+// dann automatisch wieder.
+const explainerVideoSrc = ''
 const rebelzLogo = "https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/ChatGPT%20Image%20Dec%2029,%202025,%2002_08_06%20AM.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvQ2hhdEdQVCBJbWFnZSBEZWMgMjksIDIwMjUsIDAyXzA4XzA2IEFNLnBuZyIsImlhdCI6MTc2Nzk1NDE1MSwiZXhwIjoxOTU3MTcwMTUxfQ.ZY_xLspOoFMMjMG5ZG22Gwr-CebXCgo_18urp_hA8co"
 
 export default function LandingPage() {
@@ -197,6 +203,7 @@ export default function LandingPage() {
       </section>
 
       {/* EXPLAINER VIDEO */}
+      {explainerVideoSrc && (
       <section className="py-16 md:py-32 bg-[#f5f5f5] px-4 sm:px-6 relative overflow-hidden">
         {/* Decorative circles - left side */}
         <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 hidden lg:block">
@@ -239,7 +246,7 @@ export default function LandingPage() {
                   className="w-full aspect-video"
                   preload="metadata"
                 >
-                  <source src="https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/freecompress-AngebotsAgentVideo.mp4" type="video/mp4" />
+                  <source src={explainerVideoSrc} type="video/mp4" />
                   {lang === 'de' ? 'Ihr Browser unterstützt das Video-Tag nicht.' : 'Your browser does not support the video tag.'}
                 </video>
               </div>
@@ -247,6 +254,7 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+      )}
 
       {/* 3. FEATURE 1: QUANTITY EXTRACTION (Excel Excerpt) */}
       <section id="feature-1" className="py-16 md:py-40 bg-white px-4 sm:px-6 border-b border-slate-50 overflow-hidden">
