@@ -143,6 +143,9 @@ const TRANSLATIONS = {
     title: 'Portfolio der Agenten.',
     subtitle: 'Wir bauen keine Standard-Software. Wir erschaffen proprietäre Vermögenswerte für Ihren Betrieb. Sehen Sie, wie der AngebotsAgent pro Gewerk angepasst wird.',
     badge: 'Individuelle Builds',
+    fictionNote: 'Illustrative Fallbeispiele — Firmennamen und Ausstattung sind frei erfunden.',
+    fictionBadge: 'Beispiel',
+    fictionLabel: 'Fiktives Fallbeispiel',
     examples: 'Beispiele',
     customSystem: 'Individuelles System',
     costModel: 'Cost Model',
@@ -174,6 +177,9 @@ const TRANSLATIONS = {
     title: 'Portfolio of Agents.',
     subtitle: 'We don\'t build standard software. We create proprietary assets for your business. See how BidAgent is customized per trade.',
     badge: 'Individual Builds',
+    fictionNote: 'Illustrative case examples — company names and capabilities are fictitious.',
+    fictionBadge: 'Example',
+    fictionLabel: 'Fictitious case example',
     examples: 'Examples',
     customSystem: 'Custom System',
     costModel: 'Cost Model',
@@ -246,6 +252,9 @@ export default function BeispielePage() {
             <p className="text-xl text-slate-500 max-w-2xl mx-auto italic font-medium leading-relaxed">
               {t.subtitle}
             </p>
+            <p className="text-xs text-slate-400 max-w-2xl mx-auto italic">
+              {t.fictionNote}
+            </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
@@ -265,6 +274,9 @@ export default function BeispielePage() {
                       <h3 className="text-xl font-bold tracking-tighter leading-tight italic" style={{ color: ex.textColor }}>
                         {ex.company}
                       </h3>
+                      <p className="text-[9px] font-bold uppercase tracking-widest mt-1.5 opacity-45 italic" style={{ color: ex.textColor }}>
+                        {t.fictionBadge}
+                      </p>
                     </div>
                     <div className="space-y-4">
                        <div className="h-1 w-12 rounded-full" style={{ backgroundColor: ex.primaryColor }}></div>
@@ -290,6 +302,7 @@ export default function BeispielePage() {
                   <div>
                     <span className="text-[10px] font-black uppercase tracking-widest opacity-60">{t.customSystem}</span>
                     <h2 className="text-4xl font-black italic tracking-tighter leading-none mt-4">{selected.company}</h2>
+                    <p className="mt-2 text-[10px] font-bold uppercase tracking-widest opacity-50 italic">{t.fictionLabel}</p>
                     <p className="mt-6 text-sm font-medium opacity-80 italic">{selected.description}</p>
                   </div>
                   <div className="space-y-4">
