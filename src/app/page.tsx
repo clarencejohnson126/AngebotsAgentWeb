@@ -23,11 +23,11 @@ const TRANSLATIONS = {
   }
 }
 
-// Mascot image paths (from Supabase storage)
-const mascotHero = 'https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/Maskot%20for%20hero%20page.png'
-const mascotPage3 = 'https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/Page%203.png'
-const mascotPage5 = 'https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/Page%207.png'
-const mascotPage7 = 'https://gxwzhgqeloqbgptrgcvo.supabase.co/storage/v1/object/public/all/Page%205%20(1).png'
+// Mascot image paths (served locally from public/mascots)
+const mascotHero = '/mascots/mascot-hero.png'
+const mascotPage3 = '/mascots/mascot-page3.png'
+const mascotPage5 = '/mascots/mascot-page5.png'
+const mascotPage7 = '/mascots/mascot-page7.png'
 const rebelzLogo = "https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/ChatGPT%20Image%20Dec%2029,%202025,%2002_08_06%20AM.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvQ2hhdEdQVCBJbWFnZSBEZWMgMjksIDIwMjUsIDAyXzA4XzA2IEFNLnBuZyIsImlhdCI6MTc2Nzk1NDE1MSwiZXhwIjoxOTU3MTcwMTUxfQ.ZY_xLspOoFMMjMG5ZG22Gwr-CebXCgo_18urp_hA8co"
 
 export default function LandingPage() {
