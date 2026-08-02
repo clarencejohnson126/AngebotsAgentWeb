@@ -29,11 +29,9 @@ const mascotPage3 = '/mascots/mascot-page3.png'
 const mascotPage5 = '/mascots/mascot-page5.png'
 const mascotPage7 = '/mascots/mascot-page7.png'
 
-// Erklärungsvideo: Die Quelldatei lag im gelöschten Supabase-Projekt und ist verloren.
-// Leerer String blendet die gesamte Video-Sektion aus. Sobald eine neue Datei vorliegt,
-// hier den Pfad eintragen (z.B. '/videos/erklaerungsvideo.mp4') — die Sektion erscheint
-// dann automatisch wieder.
-const explainerVideoSrc = ''
+// Erklärungsvideo — lokal ausgeliefert. Leerer String blendet die Sektion aus.
+const explainerVideoSrc = '/videos/erklaerungsvideo.mp4'
+const explainerVideoPoster = '/videos/erklaerungsvideo-poster.jpg'
 const rebelzLogo = "https://eoahpwciwttfavzpqfnz.supabase.co/storage/v1/object/sign/unrelated/ChatGPT%20Image%20Dec%2029,%202025,%2002_08_06%20AM.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85YmJlMzI3NC0xODJjLTRmZGUtODk2NC1hMTcxNzVmY2I1NGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1bnJlbGF0ZWQvQ2hhdEdQVCBJbWFnZSBEZWMgMjksIDIwMjUsIDAyXzA4XzA2IEFNLnBuZyIsImlhdCI6MTc2Nzk1NDE1MSwiZXhwIjoxOTU3MTcwMTUxfQ.ZY_xLspOoFMMjMG5ZG22Gwr-CebXCgo_18urp_hA8co"
 
 export default function LandingPage() {
@@ -245,6 +243,7 @@ export default function LandingPage() {
                   controls
                   className="w-full aspect-video"
                   preload="metadata"
+                  poster={explainerVideoPoster}
                 >
                   <source src={explainerVideoSrc} type="video/mp4" />
                   {lang === 'de' ? 'Ihr Browser unterstützt das Video-Tag nicht.' : 'Your browser does not support the video tag.'}
